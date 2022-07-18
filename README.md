@@ -33,6 +33,8 @@
 <a name="colors-used"></a>
 ## Colors Used
 
+<img src="assests/images/Dog Fitness & Nutrition.png">
+
 <a name="testing"></a>
 ## Testing
 

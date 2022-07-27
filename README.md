@@ -60,6 +60,14 @@ In the products section, the site user can browse the online store and purchase 
 - [ ] As a ***site user***, I want to be able to ***receive an email confirmation after registering*** so that I can ***verify that my account registration was successful***
 - [ ] As a ***site user***, I want to be able to ***have a personalized user profile*** so that I can ***view my personal order history and order confirmations, and save my payment information***
 
+### Sorting and Searching
+
+- [ ] As a ***shopper***, I want to be able to ***sort the list of available products*** so that I can ***easily identify the best rated, best priced and categorically sorted products***
+- [ ] As a ***shopper***, I want to be able to ***sort a specific category of product*** so that I can ***find the best-priced or best-rated product in a specific category, or sort the products in that category by name***
+- [ ] As a ***shopper***, I want to be able to ***sort multiple categories of products simultaneously*** so that I can ***find the best-priced or best-rated products across broad categorie, such as "Fitness", "Dry Food" or "Supplements"***
+- [ ] As a ***shopper***, I want to be able to ***search for a product by name or description*** so that I can ***find a specific product I would like to purchase***
+- [ ] As a ***shopper***, I want to be able to ***easily see what I have searched for and the number of results*** so that I can ***quickly decide whether the product I want is available***
+
 [Back to top](#table-of-contents)
 
 <a name="wireframe"></a>

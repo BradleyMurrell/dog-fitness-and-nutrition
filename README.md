@@ -132,6 +132,21 @@ In the products section, the site user can browse the online store and purchase 
 <a name="features"></a>
 ## Features
 
+* Homepage where the site user can read about the company and navigate to different areas of the website
+* Fitness plan page where the site user can read about the benefits of keeping their dog fit
+* Option to subscribe to a fitness plan
+* Nutrition plan page where the site user can read about the benefits of feeding their dog a healthy diet
+* Option to subscribe to a nutrition plan
+* Product page where the site user can browse the online store
+* Option to make purchases from the store
+* Product detail page where the site user can view details on a specific product
+* Option to view and leave ratings and reviews
+* Shopping cart page where the site user can view the products that they have put in the cart
+* Option to proceed to checkout to complete product purchases
+* Checkout page where the site user can enter their details and complete their purchase
+* Contact page where the site user can find contact information of the company
+* Option to send a message directly from the contact page
+
 [Back to top](#table-of-contents)
 
 <a name="colors-used"></a>

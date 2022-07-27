@@ -14,9 +14,9 @@
     * [Shopping Cart](#shopping-cart)
     * [Order Summary](#order-summary)
     * [Contact](#contact)
-* [Am I Responsive](#am-i-responsive)
 * [Features](#features)
 * [Colors Used](#colors-used)
+* [Am I Responsive](#am-i-responsive)
 * [Testing](#testing)
 * [Validator Testing](#validator-testing)
 * [Bugs](#bugs)
@@ -82,7 +82,7 @@
 <a name="order-summary"></a>
 ### Order Summary
 
-![order summary](assests/images/OrderSummary-bf8e5.jpeg)
+![order summary](assests/images/OrderSummary-44d93.jpeg)
 
 [Back to top](#table-of-contents)
 
@@ -90,11 +90,6 @@
 ### Contact
 
 ![contact](assests/images/Contact-ef514.jpeg)
-
-[Back to top](#table-of-contents)
-
-<a name="am-i-responsive"></a>
-## Am I Responsive
 
 [Back to top](#table-of-contents)
 
@@ -109,6 +104,11 @@
 ![color palette](assests/images/color-palette.png)
 
 This palette is made up of the colors:  ***#f1ddbf***,  ***#f9f3df***,  ***#fdfce5***,  ***#525e75***
+
+[Back to top](#table-of-contents)
+
+<a name="am-i-responsive"></a>
+## Am I Responsive
 
 [Back to top](#table-of-contents)
 

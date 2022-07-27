@@ -64,15 +64,25 @@
 <a name="product-detail"></a>
 ### Product Detail
 
+![product detail](assests/images/Productdetail-a4faf.jpeg)
+
 [Back to top](#table-of-contents)
 
 <a name="shopping-cart"></a>
 ### Shopping Cart
 
+#### Step 1
+![shopping cart step 1](assests/images/ShoppingCart-Step1-05484.jpeg)
+
+#### Step 2
+![shopping cart step 2](assests/images/ShoppingCart-Step2-aa0b7.jpeg)
+
 [Back to top](#table-of-contents)
 
 <a name="order-summary"></a>
 ### Order Summary
+
+![order summary](assests/images/OrderSummary-bf8e5.jpeg)
 
 [Back to top](#table-of-contents)
 

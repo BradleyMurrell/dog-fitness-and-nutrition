@@ -46,6 +46,12 @@ In the products section, the site user can browse the online store and purchase 
 <a name="user-stories"></a>
 ## User Stories
 
+### Viewing and Navigation
+
+- [ ] As a **shopper**, I want to be able to **view a list of products** so that I can **select something to purchase**
+- [ ] As a **shopper**, I want to be able to **individual product details** so that I can **identify the description, price, images, product rating and reviews**
+- [ ] As a **shopper**, I want to be able to **easily view the total of my purchases at any time** so that I can **avoid spending too much**
+
 [Back to top](#table-of-contents)
 
 <a name="wireframe"></a>

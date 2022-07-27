@@ -77,6 +77,8 @@
 <a name="contact"></a>
 ### Contact
 
+![contact](assests/images/Contact-ef514.jpeg)
+
 [Back to top](#table-of-contents)
 
 <a name="am-i-responsive"></a>
@@ -92,7 +94,7 @@
 <a name="colors-used"></a>
 ## Colors Used
 
-![color palette](assests/images/color-palette.png)
+![color palette]()
 
 This palette is made up of the colors:  ***#f1ddbf***,  ***#f9f3df***,  ***#fdfce5***,  ***#525e75***
 

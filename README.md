@@ -7,7 +7,7 @@
 * [User Stories](#user-stories)
 * [Wireframe](#wireframe)
     * [Homepage](#homepage)
-    * [Training Plan](#training-plan)
+    * [Fitness Plan](#fitness-plan)
     * [Nutrition Plan](#nutrition-plan)
     * [Product Page](#product-page)
     * [Product Detail](#product-detail)
@@ -27,6 +27,20 @@
 <a name="description"></a>
 ## Description
 
+Dog Fitness & Nutrition is a website aimed at dog owners seeking to improve their dogs health. There are three main parts to the website: ***Fitness Plan***, ***Nutrition Plan*** and ***Products***
+
+- ***Fitness Plan***
+
+In the fitness plan section, the site user can view fitness advice for dogs, benefits to keeping their dog fit and the option to subscribe to a fitness plan which includes personal or group meetups with a professional instructor. The meetups consist of exercises that the dog owners can do with their dog ranging from basic exercises to advance agility training depending on the dogs physical abilities and needs.
+
+- ***Nutrition Plan***
+
+In the nutrition plan section, the site user can view nutritional advice for dogs, benefits to feeding their dog a healthy diet and the option to subscribe to a nutrition plan which includes a delivery of food and suppliments specific to the dogs needs and a plan for feeding times and quantity.
+
+- ***Products***
+
+In the products section, the site user can browse the online store and purchase fitness and nutrition supplies for dogs. The site user can browse by categories or view all products. The site user can select a product to view the product page which displays a description of the product, price, images, product rating, reviews as well as being able to add the product to the shopping cart. The site user can also rate and review individual products.
+
 [Back to top](#table-of-contents)
 
 <a name="user-stories"></a>
@@ -44,8 +58,8 @@
 
 [Back to top](#table-of-contents)
 
-<a name="training-plan"></a>
-### Training Plan
+<a name="fitness-plan"></a>
+### Fitness Plan
 
 [Back to top](#table-of-contents)
 

@@ -57,6 +57,8 @@
 <a name="product-page"></a>
 ### Product Page
 
+![product page](assests/images/ProductPage-05754.jpeg)
+
 [Back to top](#table-of-contents)
 
 <a name="product-detail"></a>
@@ -94,7 +96,7 @@
 <a name="colors-used"></a>
 ## Colors Used
 
-![color palette]()
+![color palette](assests/images/color-palette.png)
 
 This palette is made up of the colors:  ***#f1ddbf***,  ***#f9f3df***,  ***#fdfce5***,  ***#525e75***
 

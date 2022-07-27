@@ -48,9 +48,17 @@ In the products section, the site user can browse the online store and purchase 
 
 ### Viewing and Navigation
 
-- [ ] As a **shopper**, I want to be able to **view a list of products** so that I can **select something to purchase**
-- [ ] As a **shopper**, I want to be able to **individual product details** so that I can **identify the description, price, images, product rating and reviews**
-- [ ] As a **shopper**, I want to be able to **easily view the total of my purchases at any time** so that I can **avoid spending too much**
+- [ ] As a ***shopper***, I want to be able to ***view a list of products*** so that I can ***select something to purchase***
+- [ ] As a ***shopper***, I want to be able to ***individual product details*** so that I can ***identify the description, price, images, product rating and reviews***
+- [ ] As a ***shopper***, I want to be able to ***easily view the total of my purchases at any time*** so that I can ***avoid spending too much***
+
+### Registration and User Accounts
+
+- [ ] As a ***site user***, I want to be able to ***easily register for an account*** so that I can ***have a personal account and be able to view my profile***
+- [ ] As a ***site user***, I want to be able to ***easily login or logout*** so that I can ***access my personal account information***
+- [ ] As a ***site user***, I want to be able to ***easily recover my password in case I forget it*** so that I can ***recover access to my account***
+- [ ] As a ***site user***, I want to be able to ***receive an email confirmation after registering*** so that I can ***verify that my account registration was successful***
+- [ ] As a ***site user***, I want to be able to ***have a personalized user profile*** so that I can ***view my personal order history and order confirmations, and save my payment information***
 
 [Back to top](#table-of-contents)
 

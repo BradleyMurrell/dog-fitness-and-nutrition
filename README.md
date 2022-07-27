@@ -40,6 +40,8 @@
 <a name="homepage"></a>
 ### Homepage
 
+![homepage](assests/images/HomeScreen-c9689.jpeg)
+
 [Back to top](#table-of-contents)
 
 <a name="training-plan"></a>
@@ -91,6 +93,8 @@
 ## Colors Used
 
 ![color palette](assests/images/color-palette.png)
+
+This palette is made up of the colors:  ***#f1ddbf***,  ***#f9f3df***,  ***#fdfce5***,  ***#525e75***
 
 [Back to top](#table-of-contents)
 

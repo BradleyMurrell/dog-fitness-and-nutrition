@@ -90,6 +90,8 @@ In the products section, the site user can browse the online store and purchase 
 <a name="nutrition-plan"></a>
 ### Nutrition Plan
 
+![nutrition plan](assests/images/Nutritionplans-b9787.jpeg)
+
 [Back to top](#table-of-contents)
 
 <a name="product-page"></a>

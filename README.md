@@ -83,6 +83,8 @@ In the products section, the site user can browse the online store and purchase 
 <a name="fitness-plan"></a>
 ### Fitness Plan
 
+![fitness plan](assests/images/Fitnessplans-8ca92.jpeg)
+
 [Back to top](#table-of-contents)
 
 <a name="nutrition-plan"></a>

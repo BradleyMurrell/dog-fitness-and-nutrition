@@ -76,35 +76,61 @@ In the products section, the site user can browse the online store and purchase 
 <a name="homepage"></a>
 ### Homepage
 
-![homepage](assests/images/HomeScreen-c9689.jpeg)
+##### Desktop
+![homepage-desktop](docs/desktop/homescreen-desktop.jpeg)
+##### Tablet
+![homepage-tablet](docs/tablet/homescreen-tablet.jpeg)
+##### Mobile
+![homepage-mobile](docs/mobile/homescreen-mobile.jpeg)
 
 [Back to top](#table-of-contents)
 
 <a name="fitness-plan"></a>
 ### Fitness Plan
 
-![fitness plan](assests/images/Fitnessplans-8ca92.jpeg)
+##### Desktop
+![fitness plan](docs/desktop/fitnessplans-desktop.jpeg)
+##### Tablet
+![fitness plan](docs/tablet/fitnessplans-tablet.jpeg)
+##### Mobile
+![fitness plan](docs/mobile/fitnessplan-mobile.jpeg)
 
 [Back to top](#table-of-contents)
 
 <a name="nutrition-plan"></a>
 ### Nutrition Plan
 
-![nutrition plan](assests/images/Nutritionplans-b9787.jpeg)
+##### Desktop
+![nutrition plan](docs/desktop/nutritionplans-desktop.jpeg)
+##### Tablet
+![nutrition plan](docs/tablet/nutritionplans-tablet.jpeg)
+##### Mobile
+![nutrition plan](docs/mobile/nutritionplan-mobile.jpeg)
+
 
 [Back to top](#table-of-contents)
 
 <a name="product-page"></a>
 ### Product Page
 
-![product page](assests/images/ProductPage-05754.jpeg)
+##### Desktop
+![product page](docs/desktop/productpage-desktop.jpeg)
+##### Tablet
+![product page](docs/tablet/productpage-tablet.jpeg)
+##### Mobile
+![product page](docs/mobile/productpage-mobile.jpeg)
 
 [Back to top](#table-of-contents)
 
 <a name="product-detail"></a>
 ### Product Detail
 
-![product detail](assests/images/Productdetail-a4faf.jpeg)
+##### Desktop
+![product detail](docs/desktop/productdetail-desktop.jpeg)
+##### Tablet
+![product detail](docs/tablet/productdetail-tabet.jpeg)
+##### Mobile
+![product detail](docs/mobile/productdetail-mobile.jpeg)
 
 [Back to top](#table-of-contents)
 
@@ -112,24 +138,44 @@ In the products section, the site user can browse the online store and purchase 
 ### Shopping Cart
 
 #### Step 1
-![shopping cart step 1](assests/images/ShoppingCart-Step1-05484.jpeg)
+##### Desktop
+![shopping cart step 1](docs/desktop/shoppingcart-step1-desktop.jpeg)
+##### Tablet
+![shopping cart step 1](docs/tablet/shoppingcart-step1-tablet.jpeg)
+##### Mobile
+![shopping cart step 1](docs/mobile/shoppingcart-step1-mobile.jpeg)
 
 #### Step 2
-![shopping cart step 2](assests/images/ShoppingCart-Step2-aa0b7.jpeg)
+##### Desktop
+![shopping cart step 2](docs/desktop/shoppingcart-step2-desktop.jpeg)
+##### Tablet
+![shopping cart step 2](docs/tablet/shoppingcart-step2-tablet.jpeg)
+##### Mobile
+![shopping cart step 2](docs/mobile/shoppingcart-step2-mobile.jpeg)
 
 [Back to top](#table-of-contents)
 
 <a name="order-summary"></a>
 ### Order Summary
 
-![order summary](assests/images/OrderSummary-44d93.jpeg)
+##### Desktop
+![order summary](docs/desktop/ordersummary-desktop.jpeg)
+##### Tablet
+![order summary](docs/tablet/ordersummary-tablet.jpeg)
+##### Mobile
+![order summary](docs/mobile/ordersummary-mobile.jpeg)
 
 [Back to top](#table-of-contents)
 
 <a name="contact"></a>
 ### Contact
 
-![contact](assests/images/Contact-ef514.jpeg)
+##### Desktop
+![contact](docs/desktop/contact-desktop.jpeg)
+##### Tablet
+![contact](docs/tablet/contact-tablet.jpeg)
+##### Mobile
+![contact](docs/mobile/contact-mobile.jpeg)
 
 [Back to top](#table-of-contents)
 
@@ -156,7 +202,7 @@ In the products section, the site user can browse the online store and purchase 
 <a name="colors-used"></a>
 ## Colors Used
 
-![color palette](assests/images/color-palette.png)
+![color palette](docs/color-palette.png)
 
 This palette is made up of the colors:  ***#f1ddbf***,  ***#f9f3df***,  ***#fdfce5***,  ***#525e75***
 

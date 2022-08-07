@@ -263,6 +263,10 @@ In the products section, the site user can browse the online store and purchase 
 | email | | DecimalField | max_length=254, null=False, blank=False |
 | phone_number | | CharField | max_length=20, null=False, blank=False |
 | address | | CharField | max_length=254, null=False, blank=False |
+| order_subtotal | | DecimalField | max_length=10, decimal_places=2, null=False, default=0 |
+| order_total | | DecimalField | max_length=10, decimal_places=2, null=False, default=0 |
+| stripe_pid | | CharField | null=False, default=" |
+| status | | IntergerField | choices=COMPLETED, default=0 |
 
 [Back to top](#table-of-contents)
 

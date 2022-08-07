@@ -14,6 +14,9 @@
     * [Shopping Cart](#shopping-cart)
     * [Order Summary](#order-summary)
     * [Contact](#contact)
+* [Structure](#structure)
+    * [App Flow](#app-flow)
+    * [Data Schema](#data-schema)
 * [Features](#features)
 * [Colors Used](#colors-used)
 * [Am I Responsive](#am-i-responsive)
@@ -197,6 +200,34 @@ In the products section, the site user can browse the online store and purchase 
 ![contact](docs/tablet/contact-tablet.jpeg)
 ##### Mobile
 ![contact](docs/mobile/contact-mobile.jpeg)
+
+[Back to top](#table-of-contents)
+
+<a name="struture"></a>
+## Structure
+
+<a name="app-flow"></a>
+### App Flow
+
+#### Guest User
+![guest user](docs/guest-user.png)
+
+#### Authenticated User
+![authenticated user](docs/authenticated-user.png)
+
+#### Admin
+![admin](docs/admin.png)
+
+[Back to top](#table-of-contents)
+
+<a name="data-schema"></a>
+### Data Schema
+
+#### Products
+![products](docs/products.png)
+
+#### Orders
+![orders](docs/orders.png)
 
 [Back to top](#table-of-contents)
 

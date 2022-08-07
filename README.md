@@ -17,6 +17,7 @@
 * [Structure](#structure)
     * [App Flow](#app-flow)
     * [Data Schema](#data-schema)
+* [Models](#models)
 * [Features](#features)
 * [Colors Used](#colors-used)
 * [Am I Responsive](#am-i-responsive)
@@ -228,6 +229,40 @@ In the products section, the site user can browse the online store and purchase 
 
 #### Orders
 ![orders](docs/orders.png)
+
+[Back to top](#table-of-contents)
+
+<a name="models"></a>
+## Models
+
+### ProductCategory
+
+| Name | Key | Type | Other Details |
+| ---- | ---- | ---- | ---- |
+| name | | CharField | max_length=254 |
+| friendly_name | | CharField | max_length=254 |
+
+### Products
+
+| Name | Key | Type | Other Details |
+| ---- | ---- | ---- | ---- |
+| category | FK (ProductCategory) | | null=True, on_delete=models.SET_NULL |
+| name | | CharField | max_length=254, unique=True |
+| slug_name | | SlugField | max_length=254, unique=True |
+| image | | CloudinaryField | 'image', default=placeholder, null=True, blank=True |
+| description | | TextField | |
+| price | | DecimalField | max_digits=6, decimal_places=2 |
+
+### Order
+
+| Name | Key | Type | Other Details |
+| ---- | ---- | ---- | ---- |
+| order_number | | CharField | max_length=32, null=False, editable=False |
+| user_profile | FK (UserProfile) | | null=True, related_name='orders', on_delete=models.SET_NULL |
+| full_name | | CharField | max_length=50, null=False, blank=False |
+| email | | DecimalField | max_length=254, null=False, blank=False |
+| phone_number | | CharField | max_length=20, null=False, blank=False |
+| address | | CharField | max_length=254, null=False, blank=False |
 
 [Back to top](#table-of-contents)
 

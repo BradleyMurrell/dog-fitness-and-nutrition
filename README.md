@@ -281,6 +281,8 @@ In the products section, the site user can browse the online store and purchase 
 <a name="features"></a>
 ## Features
 
+* ***Brand*** image for website
+![brand](docs/brand.png)
 * ***Homepage*** where the site user can read about the company and navigate to different areas of the website
 * ***Fitness plan*** page where the site user can read about the benefits of keeping their dog fit
 * Option to ***subscribe*** to a ***fitness plan***
@@ -342,5 +344,7 @@ This palette is made up of the colors:  ***#f1ddbf***,  ***#f9f3df***,  ***#fdfc
 
 <a name="content"></a>
 ## Content
+
+* Brand image created on https://express.adobe.com/
 
 [Back to top](#table-of-contents)

@@ -249,7 +249,7 @@ In the products section, the site user can browse the online store and purchase 
 | category | FK (ProductCategory) | | null=True, on_delete=models.SET_NULL |
 | name | | CharField | max_length=254 |
 | description | | TextField | |
-| sizes | | BooeanField | default=False, null=True, blank=True |
+| sizes | | BooleanField | default=False, null=True, blank=True |
 | price | | DecimalField | max_digits=6, decimal_places=2 |
 | rating | | DecimalField | max_digits=6, decimal_places=2, null=True, blank=True |
 | image_url | | URLField | max_length=1024, null=True, blank=True |
@@ -260,8 +260,8 @@ In the products section, the site user can browse the online store and purchase 
 
 | Name | Key | Type | Other Details |
 | ---- | ---- | ---- | ---- |
-| order_number | | CharField | max_length=32, null=False, editable=False |
 | user_profile | FK (UserProfile) | | null=True, related_name='orders', on_delete=models.SET_NULL |
+| order_number | | CharField | max_length=32, null=False, editable=False |
 | full_name | | CharField | max_length=50, null=False, blank=False |
 | email | | EmailField | max_length=254, null=False, blank=False |
 | phone_number | | CharField | max_length=20, null=False, blank=False |
@@ -275,8 +275,6 @@ In the products section, the site user can browse the online store and purchase 
 | delivery_cost | | DecimalField | max_digits=6, decimal_places=2, null=False, default=0 |
 | order_subtotal | | DecimalField | max_digits=10, decimal_places=2, null=False, default=0 |
 | order_total | | DecimalField | max_length=10, decimal_places=2, null=False, default=0 |
-| stripe_pid | | CharField | null=False, default=" |
-| status | | IntergerField | choices=COMPLETED, default=0 |
 
 [Back to top](#table-of-contents)
 

@@ -260,10 +260,17 @@ In the products section, the site user can browse the online store and purchase 
 | order_number | | CharField | max_length=32, null=False, editable=False |
 | user_profile | FK (UserProfile) | | null=True, related_name='orders', on_delete=models.SET_NULL |
 | full_name | | CharField | max_length=50, null=False, blank=False |
-| email | | DecimalField | max_length=254, null=False, blank=False |
+| email | | EmailField | max_length=254, null=False, blank=False |
 | phone_number | | CharField | max_length=20, null=False, blank=False |
-| address | | CharField | max_length=254, null=False, blank=False |
-| order_subtotal | | DecimalField | max_length=10, decimal_places=2, null=False, default=0 |
+| country | | CharField | max_length=40, null=False, blank=False |
+| postcode | | CharField | max_length=20, null=True, blank=True |
+| town_or_city | | CharField | max_length=20, null=False, blank=False |
+| street_address1 | | CharField | max_length=80, null=False, blank=False |
+| street_address2 | | CharField | max_length=80, null=True, blank=True |
+| region | | CharField | max_length=80, null=True, blank=True |
+| date | | DateTimeField | auto_now_add=True |
+| delivery_cost | | DecimalField | max_digits=6, decimal_places=2, null=False, default=0 |
+| order_subtotal | | DecimalField | max_digits=10, decimal_places=2, null=False, default=0 |
 | order_total | | DecimalField | max_length=10, decimal_places=2, null=False, default=0 |
 | stripe_pid | | CharField | null=False, default=" |
 | status | | IntergerField | choices=COMPLETED, default=0 |

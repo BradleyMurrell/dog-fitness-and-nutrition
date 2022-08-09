@@ -276,6 +276,17 @@ In the products section, the site user can browse the online store and purchase 
 | order_subtotal | | DecimalField | max_digits=10, decimal_places=2, null=False, default=0 |
 | order_total | | DecimalField | max_length=10, decimal_places=2, null=False, default=0 |
 
+### Contact Form
+
+| Name | Key | Type | Other Details |
+| ---- | ---- | ---- | ---- |
+| your_name |  | CharField | max_length=50 null=False, blank=False |
+| dogs_name |  | CharField | max_length=50 null=False, blank=False |
+| dogs_age |  | CharField | max_length=50 null=False, blank=False |
+| dogs_breed |  | CharField | max_length=50 null=False, blank=False |
+| email |  | EmailField | max_length=254 null=False, blank=False |
+| message |  | CharField | max_length=2000 null=False, blank=False |
+
 [Back to top](#table-of-contents)
 
 <a name="features"></a>

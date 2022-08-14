@@ -2,15 +2,20 @@ html {
     height: 100%;
 }
 
+#topnav {
+    background-color: #FFFAF5;
+}
+
 hr {
-    margin: 50px, 0, 50px, 0;
+    margin: auto;
+    width: 98%;
     height: 1px;
     background-color: #000958;
 }
 
 body {
     background-color: #FFFAF5;
-    color: #525e75;
+    color: #000958;
 }
 
 /* --- Media Queries --- */

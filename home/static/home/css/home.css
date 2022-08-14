@@ -1,9 +1,26 @@
+#info {
+    padding-left: 8rem;
+}
+
 #dog-playing {
     display: flex;
     justify-content: center;
 }
 
+#profile{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
 img {
     height: 500px;
     border-radius: 250px;
+}
+
+#our-story {
+    margin-top: 5rem;
+    background-color: #F2F2F2;
+    padding-right: 8rem;
 }

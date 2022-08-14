@@ -14,10 +14,10 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col-7 col-md-6 my-auto">
-                <h1 class="display-4 logo-font text-black">
+    <div class="container-fluid h-100">
+        <div class="row">
+            <div class="col-7 col-md-6 my-auto" id="info">
+                <h1 class="display-4">
                     The best fitness and nutrition for your best friend
                 </h1>
                 <div class="">
@@ -35,6 +35,20 @@
             </div>
             <div class="col-5 col-md-6 my-auto" id="dog-playing">
                 <img src="{% static 'home/images/dog-playing.jpg' %}" alt="dog playing">
+            </div>
+        </div>
+        <div class="row" id="our-story">
+            <div class="col-6 my-auto" id="profile">
+                <img src="{% static 'home/images/our-story.jpg' %}" alt="profile">
+            </div>
+            <div class="col-6 my-auto">
+                <h1 class="display-5">
+                    Our Story
+                </h1>
+                <p>Hi there,</p>
+                <p>My name is Brad and I am the creator of Dog Fitness &amp; Nutrition.</p>
+                <p>I am a certified dog trainer and entrepreneur who over the past decade have been walking and handling dogs. I trained my first dog as a child and since then, I have been fascinated with the fitness and nutritional needs for dogs.</p>
+                <p>Welcome to Dog Fitness &amp; Nutrition</p>
             </div>
         </div>
     </div>

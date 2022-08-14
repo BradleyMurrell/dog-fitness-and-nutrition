@@ -1,0 +1,9 @@
+#dog-playing {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 500px;
+    border-radius: 250px;
+}

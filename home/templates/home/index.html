@@ -1,6 +1,10 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'home/css/home.css' %}">
+{% endblock %}
+
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
@@ -29,7 +33,7 @@
                     </form>
                 </div>
             </div>
-            <div class="col-5 col-md-6 my-auto">
+            <div class="col-5 col-md-6 my-auto" id="dog-playing">
                 <img src="{% static 'home/images/dog-playing.jpg' %}" alt="dog playing">
             </div>
         </div>

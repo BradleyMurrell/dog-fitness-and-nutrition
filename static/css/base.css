@@ -2,13 +2,15 @@ html {
     height: 100%;
 }
 
-body {
-    background-color: #fdfce5;
-    color: #525e75;
+hr {
+    margin: 50px, 0, 50px, 0;
+    height: 1px;
+    background-color: #000958;
 }
 
-#topnav {
-    background-color: #f1ddbf;
+body {
+    background-color: #FFFAF5;
+    color: #525e75;
 }
 
 /* --- Media Queries --- */

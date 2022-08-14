@@ -357,5 +357,7 @@ This palette is made up of the colors:  ***#f1ddbf***,  ***#f9f3df***,  ***#fdfc
 ## Content
 
 * Brand image created on https://express.adobe.com/
+* Images sourced from https://unsplash.com/
+* Bootstrap cdn sourced from https://bootswatch.com/4/united/
 
 [Back to top](#table-of-contents)

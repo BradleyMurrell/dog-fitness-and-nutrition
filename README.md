@@ -52,7 +52,7 @@ In the products section, the site user can browse the online store and purchase 
 
 ### Viewing and Navigation
 | ***As a*** | ***I want to be able to*** | ***so that I can*** |
-| ---- | ---- | ---- | ---- |
+| ---- | ---- | ---- |
 | shopper | view a list of products | select something to purchase |
 | shopper | individual product details | identify the description, price, images, product rating and reviews |
 | shopper | easily view the total of my purchases at any time | avoid spending too much |

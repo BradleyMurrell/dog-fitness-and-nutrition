@@ -71,18 +71,18 @@ In the products section, the site user can browse the online store and purchase 
 | ---- | ---- | ---- |
 | shopper | sort the list of available products | easily identify the best rated, best priced and categorically sorted products |
 | shopper | sort a specific category of product | find the best-priced or best-rated product in a specific category, or sort the products in that category by name |
-| shopper | sort multiple categories of products simultaneously | find the best-priced or best-rated products across broad categorie, such as "Fitness", "Dry Food" or "Supplements" |
+| shopper | sort multiple categories of products simultaneously | find the best-priced or best-rated products across broad categories, such as "Fitness", "Dry Food" or "Supplements" |
 | shopper | search for a product by name or description | find a specific product I would like to purchase |
 | shopper | easily see what I have searched for and the number of results | quickly decide whether the product I want is available |
 
-### Purcasing and Checkout
+### Purchasing and Checkout
 | ***As a*** | ***I want to be able to*** | ***so that I can*** |
 | ---- | ---- | ---- |
 | shopper | easily select the size and quantity of a product when purchasing it | ensure I don't accidentally select the wrong product, quantity or size |
 | shopper | view items in my bag to be purchased | identify the total cost of my purchase and all items I will receive |
 | shopper | adjust the quantity of individual items in my bag | easily make changes to my purchase before checkout |
 | shopper | easily enter my payment information | check out quickly and with no hassles |
-| shopper | fee my persona and payment information is safe and secure | confidently provide the needed information to make a purchase |
+| shopper | fee my personal and payment information is safe and secure | confidently provide the needed information to make a purchase |
 | shopper | view an order confirmation after checkout | verify that I haven't made any mistakes |
 | shopper | receive an email confirmation after checking out | keep the confirmation of what I have purchased for my records |
 

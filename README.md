@@ -230,6 +230,9 @@ In the products section, the site user can browse the online store and purchase 
 #### Orders
 ![orders](docs/orders.png)
 
+#### Contact
+![orders](docs/contact.png)
+
 [Back to top](#table-of-contents)
 
 <a name="models"></a>

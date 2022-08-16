@@ -266,7 +266,7 @@ In the products section, the site user can browse the online store and purchase 
 | email | | EmailField | max_length=254, null=False, blank=False |
 | phone_number | | CharField | max_length=20, null=False, blank=False |
 | country | | CharField | max_length=40, null=False, blank=False |
-| postcode | | CharField | max_length=20, null=True, blank=True |
+| postcode | | CharField | max_length=20, null=False, blank=False |
 | town_or_city | | CharField | max_length=20, null=False, blank=False |
 | street_address1 | | CharField | max_length=80, null=False, blank=False |
 | street_address2 | | CharField | max_length=80, null=True, blank=True |
@@ -280,12 +280,34 @@ In the products section, the site user can browse the online store and purchase 
 
 | Name | Key | Type | Other Details |
 | ---- | ---- | ---- | ---- |
-| your_name |  | CharField | max_length=50 null=False, blank=False |
+| name |  | CharField | max_length=50 null=False, blank=False |
+| email |  | EmailField | max_length=254 null=False, blank=False |
 | dogs_name |  | CharField | max_length=50 null=False, blank=False |
 | dogs_age |  | CharField | max_length=50 null=False, blank=False |
 | dogs_breed |  | CharField | max_length=50 null=False, blank=False |
-| email |  | EmailField | max_length=254 null=False, blank=False |
+| fitness_plan | FK (FitnessPlan) | | null=True, on_delete=models.SET_NULL |
+| nutrition_plan | FK (NutritionPlan) | | null=True, on_delete=models.SET_NULL |
 | message |  | CharField | max_length=2000 null=False, blank=False |
+
+### Fitness Plan
+
+| Name | Key | Type | Other Details |
+| ---- | ---- | ---- | ---- |
+| sessions |  | BooleanField | default=False, null=False, blank=False |
+
+### Nutrition Plan
+
+| Name | Key | Type | Other Details |
+| ---- | ---- | ---- | ---- |
+| dogs_gender |  | BooleanField | default=False, null=False, blank=False |
+| dogs_weight |  | CharField | max_length=50 null=False, blank=False |
+| dogs_physique |  | BooleanField | default=False, null=False, blank=False |
+| active_level |  | BooleanField | default=False, null=False, blank=False |
+| eating_habit |  | BooleanField | default=False, null=False, blank=False |
+| does_not_eat |  | CharField | max_length=50 null=True, blank=True |
+| allergies |  | CharField | max_length=50 null=True, blank=True |
+| food_preference |  | BooleanField | default=False, null=False, blank=False |
+| outcome_goal |  | BooleanField | default=False, null=False, blank=False |
 
 [Back to top](#table-of-contents)
 

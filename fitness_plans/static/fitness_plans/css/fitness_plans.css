@@ -1,0 +1,12 @@
+#fitness-banner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.col-4 {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}

@@ -2,97 +2,169 @@
 {% load static %}
 
 {% block extra_css %}
-    <link rel="stylesheet" href="{% static 'fitness_plans/css/fitness_plans.css' %}">
+<link rel="stylesheet" href="{% static 'fitness_plans/css/fitness_plans.css' %}">
 {% endblock %}
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
     </div>
+</div>
 {% endblock %}
 
 {% block content %}
-    <div class="container-fluid h-100">
-        <div class="row">
-            <div class="col-12">
-                <img src="{% static 'fitness_plans/images/fitness-banner.jpg' %}" alt="fitness-banner" class="img-responsive" id="fitness-banner">
-                <div class="col-4 p-5 card border-primary" id="title-card">
-                    <div class="card-body">
-                        <h2 class="card-title">Fitness Plans</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet dolore sit enim feugait est velit quis clita et lorem sed labore te ut. Duis no et stet sanctus autem ut aliquyam duis diam dolor amet. Aliquyam consequat et autem. Invidunt eos hendrerit.</p>
-                    </div>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-12">
+            <img src="{% static 'fitness_plans/images/fitness-banner.jpg' %}" alt="fitness-banner"
+                class="img-responsive" id="fitness-banner">
+            <div class="col-3 shadow p-3 mb-5 bg-white rounded" id="title-card">
+                <div class="card-body">
+                    <h1 class="card-title font-weight-bold">Fitness Plans</h1>
+                    <p class="card-text">Lorem ipsum dolor sit amet dolore sit enim feugait est velit quis clita et
+                        lorem sed labore te ut. Duis no et stet sanctus autem ut aliquyam duis diam dolor amet. Aliquyam
+                        consequat et autem. Invidunt eos hendrerit.</p>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
-    <div class="row">
-        <div class="col-12 p-5 text-center">
-            <h1>Benefits</h1>
-        </div>
-    </div>
+<br>
 
-    <br>
+<div class="row">
+    <div class="col-12 p-5 text-center">
+        <h1 class="font-weight-bold">Benefits</h1>
+    </div>
+</div>
 
-    <div class="container">    
-        <div class="row">
-            <div class="col-4 p-4 m-1 card border-primary">
-                <div class="card-body">
-                    <div class="card-title">
-                        <h2>Endurence</h2>
-                    </div>
-                    <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+<br>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-3 m-3 shadow p-3 mb-5 bg-white rounded text-center">
+            <div class="card-body">
+                <div class="card-title">
+                    <h2 class="font-weight-bold">Endurence</h2>
                 </div>
+                <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
             </div>
-            <div class="col-4 p-4 m-1 card border-primary"> 
-                <div class="card-body">
-                    <div class="card-title">
-                        <h2>Endurence</h2>
-                    </div>
-                    <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        </div>
+        <div class="col-3 m-3 shadow p-3 mb-5 bg-white rounded text-center">
+            <div class="card-body">
+                <div class="card-title">
+                    <h2 class="font-weight-bold">Strength</h2>
                 </div>
+                <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
             </div>
-            <div class="col-4 p-4 m-1 card border-primary"> 
-                <div class="card-body">
-                    <div class="card-title">
-                        <h2>Endurence</h2>
-                    </div>
-                    <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        </div>
+        <div class="col-3 m-3 shadow p-3 mb-5 bg-white rounded text-center">
+            <div class="card-body">
+                <div class="card-title">
+                    <h2 class="font-weight-bold">Balance</h2>
                 </div>
+                <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
             </div>
         </div>
     </div>
-        
-    <br>
-        
-    <div class="container">    
-        <div class="row">
-            <div class="col-4 p-4 m-1 card border-primary">
-                <div class="card-body">
-                    <div class="card-title">
-                        <h2>Endurence</h2>
-                    </div>
-                    <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+</div>
+
+<br>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-3 m-3 shadow p-3 mb-5 bg-white rounded text-center">
+            <div class="card-body">
+                <div class="card-title">
+                    <h2 class="font-weight-bold">Flexibility</h2>
                 </div>
+                <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
             </div>
-            <div class="col-4 p-4 m-1 card border-primary"> 
-                <div class="card-body">
-                    <div class="card-title">
-                        <h2>Endurence</h2>
-                    </div>
-                    <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        </div>
+        <div class="col-3 m-3 shadow p-3 mb-5 bg-white rounded text-center">
+            <div class="card-body">
+                <div class="card-title">
+                    <h2 class="font-weight-bold">Mental</h2>
                 </div>
+                <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
             </div>
-            <div class="col-4 p-4 m-1 card border-primary"> 
-                <div class="card-body">
-                    <div class="card-title">
-                        <h2>Endurence</h2>
-                    </div>
-                    <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        </div>
+        <div class="col-3 m-3 shadow p-3 mb-5 bg-white rounded text-center">
+            <div class="card-body">
+                <div class="card-title">
+                    <h2 class="font-weight-bold">Quality of Life</h2>
                 </div>
+                <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
             </div>
         </div>
     </div>
+</div>
+
+<br>
+
+<div class="row">
+    <div class="col-12 p-5 text-center">
+        <h1 class="font-weight-bold">Prices</h1>
+    </div>
+</div>
+
+<br>
+
+<div class="container py-5">
+
+    <div class="row text-center align-items-end">
+        <div class="col-lg-4 mb-5 mb-lg-0">
+            <div class="bg-white p-5 rounded-lg shadow">
+                <h1 class="h2 text-uppercase font-weight-bold mb-4">Try!</h1>
+                <h2 class="h1 font-weight-bold">0 kr</h2>
+                <p class="h2 font-weight-normal ml-2">per session</p>
+
+                <div class="custom-separator my-4 mx-auto bg-primary"></div>
+
+                <ul class="h4 list-unstyled my-5 text-center font-weight-normal">
+                    <li class="mb-3">
+                        <i class="fa fa-check mr-2 text-primary"></i> 1 fitness session free of charge</li>
+                    <li class="mb-3">
+                </ul>
+                <a href="#" class="btn btn-primary btn-block p-3 shadow rounded-pill">Contact</a>
+            </div>
+        </div>
+
+        <div class="col-lg-4 mb-5 mb-lg-0">
+            <div class="bg-white p-5 rounded-lg shadow">
+                <h1 class="h2 text-uppercase font-weight-bold mb-4">Term Fee</h1>
+                <h2 class="h1 font-weight-bold">2300 kr</h2>
+                <p class="h2 font-weight-normal ml-2">per semester</p>
+
+                <div class="custom-separator my-4 mx-auto bg-primary"></div>
+
+                <ul class="h4 list-unstyled my-5 text-center font-weight-normal">
+                    <li class="mb-3">
+                        <i class="fa fa-check mr-2 text-primary"></i> Fitness session 3 times a week</li>
+                    <li class="mb-3">
+                </ul>
+                <a href="#" class="btn btn-primary btn-block p-3 shadow rounded-pill">Contact</a>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="bg-white p-5 rounded-lg shadow">
+                <h1 class="h2 text-uppercase font-weight-bold mb-4">One time session</h1>
+                <h2 class="h1 font-weight-bold">150 kr</h2>
+                <p class="h2 font-weight-normal ml-2">per session</p>
+
+                <div class="custom-separator my-4 mx-auto bg-primary"></div>
+
+                <ul class="h4 list-unstyled my-5 text-center font-weight-normal">
+                    <li class="mb-3">
+                        <i class="fa fa-check mr-2 text-primary"></i> 1 fitness session</li>
+                    <li class="mb-3">
+                </ul>
+                <a href="#" class="btn btn-primary btn-block p-3 shadow rounded-pill">Contact</a>
+            </div>
+        </div>
+    </div>
+</div>
+
 {% endblock %}

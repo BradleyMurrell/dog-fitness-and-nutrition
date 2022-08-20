@@ -1,0 +1,11 @@
+#nutrition-banner {
+    width: 100%;
+    position: relative;
+}
+
+#title-card{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    height: 60%;
+}

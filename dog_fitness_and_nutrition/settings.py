@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'home',
     'fitness_plans',
+    'nutrition_plans',
 ]
 
 MIDDLEWARE = [

@@ -339,9 +339,9 @@ In the products section, the site user can browse the online store and purchase 
 <a name="colors-used"></a>
 ## Colors Used
 
-![color palette](docs/color-palette.png)
-
-This palette is made up of the colors:  ***#f1ddbf***,  ***#f9f3df***,  ***#fdfce5***,  ***#525e75***
+| #000958 | #FDE7CB | #F2F2F2 | #FFFAF5 | #FFFFFF |
+| ---- | ---- | ---- | ---- | ---- |
+| ![#000958](docs/colors/000958.png) | ![#F2F2F2](docs/colors/F2F2F2.png) | ![#FDE7CB](docs/colors/FDE7CB.png) | ![#FFFAF5](docs/colors/FFFAF5.png) | ![#FFFFFF](docs/colors/FFFFFF.png) |
 
 [Back to top](#table-of-contents)
 

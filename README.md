@@ -341,7 +341,7 @@ In the products section, the site user can browse the online store and purchase 
 
 | #000958 | #FDE7CB | #F2F2F2 | #FFFAF5 | #FFFFFF |
 | ---- | ---- | ---- | ---- | ---- |
-| ![#000958](docs/colors/000958.png) | ![#F2F2F2](docs/colors/F2F2F2.png) | ![#FDE7CB](docs/colors/FDE7CB.png) | ![#FFFAF5](docs/colors/FFFAF5.png) | ![#FFFFFF](docs/colors/FFFFFF.png) |
+| ![#000958](docs/colors/000958.png) | ![#FDE7CB](docs/colors/FDE7CB.png) | ![#F2F2F2](docs/colors/F2F2F2.png) | ![#FFFAF5](docs/colors/FFFAF5.png) | ![#FFFFFF](docs/colors/FFFFFF.png) |
 
 [Back to top](#table-of-contents)
 

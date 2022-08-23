@@ -23,7 +23,8 @@
         </div>
         <div class="col-5 m-3 shadow p-3 mb-5 bg-white rounded text-center">
             <h3>Send Us a Message</h3>
-            <form>
+            <form action="{% url 'contact' %}" method="POST">
+                {% csrf_token %}
 
             </form>
         </div>

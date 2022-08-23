@@ -3,19 +3,16 @@ html {
 }
 
 #topnav {
-    background-color: #FFFAF5;
-}
-
-hr {
-    margin: auto;
-    width: 98%;
-    height: 1px;
-    background-color: #000958;
+    background-color: #FDE7CB;
 }
 
 body {
     background-color: #FFFAF5;
     color: #000958;
+}
+
+footer {
+    background-color: #FDE7CB;
 }
 
 /* --- Media Queries --- */

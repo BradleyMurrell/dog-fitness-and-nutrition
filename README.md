@@ -381,8 +381,6 @@ In the products section, the site user can browse the online store and purchase 
 <a name="content"></a>
 ## Content
 
-* Brand image created on https://express.adobe.com/
 * Images sourced from https://unsplash.com/
-* Bootstrap cdn sourced from https://bootswatch.com/4/united/
 
 [Back to top](#table-of-contents)

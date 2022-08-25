@@ -11,8 +11,13 @@ body {
     color: #000958;
 }
 
+.content {
+    min-height: calc(100vh - 13rem);
+}
+
 footer {
     background-color: #FDE7CB;
+    min-height: 13rem;
 }
 
 /* --- Media Queries --- */

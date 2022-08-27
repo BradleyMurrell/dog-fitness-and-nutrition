@@ -82,7 +82,7 @@ In the products section, the site user can browse the online store and purchase 
 | shopper | view items in my bag to be purchased | identify the total cost of my purchase and all items I will receive |
 | shopper | adjust the quantity of individual items in my bag | easily make changes to my purchase before checkout |
 | shopper | easily enter my payment information | check out quickly and with no hassles |
-| shopper | fee my personal and payment information is safe and secure | confidently provide the needed information to make a purchase |
+| shopper | feel my personal and payment information is safe and secure | confidently provide the needed information to make a purchase |
 | shopper | view an order confirmation after checkout | verify that I haven't made any mistakes |
 | shopper | receive an email confirmation after checking out | keep the confirmation of what I have purchased for my records |
 

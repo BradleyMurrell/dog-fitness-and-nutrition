@@ -101,36 +101,69 @@ In the products section, the site user can browse the online store and purchase 
 <a name="homepage"></a>
 ### Homepage
 
-##### Desktop
+<details open>
+<summary>Desktop</summary>
+
 ![homepage-desktop](docs/desktop/homescreen-desktop.jpeg)
-##### Tablet
+</details>
+
+<details open>
+<summary>Tablet</summary>
+
 ![homepage-tablet](docs/tablet/homescreen-tablet.jpeg)
-##### Mobile
+</details>
+
+<details open>
+<summary>Mobile</summary>
+
 ![homepage-mobile](docs/mobile/homescreen-mobile.jpeg)
+</details>
 
 [Back to top](#table-of-contents)
 
 <a name="fitness-plan"></a>
 ### Fitness Plan
 
-##### Desktop
-![fitness plan](docs/desktop/fitnessplans-desktop.jpeg)
-##### Tablet
-![fitness plan](docs/tablet/fitnessplans-tablet.jpeg)
-##### Mobile
-![fitness plan](docs/mobile/fitnessplan-mobile.jpeg)
+<details open>
+<summary>Desktop</summary>
+
+![fitness plan-desktop](docs/desktop/fitnessplans-desktop.jpeg)
+</details>
+
+<details open>
+<summary>Tablet</summary>
+
+![fitness plan-tablet](docs/tablet/fitnessplans-tablet.jpeg)
+</details>
+
+<details open>
+<summary>Mobile</summary>
+
+![fitness plan-mobile](docs/mobile/fitnessplan-mobile.jpeg)
+</details>
 
 [Back to top](#table-of-contents)
 
 <a name="nutrition-plan"></a>
 ### Nutrition Plan
 
-##### Desktop
-![nutrition plan](docs/desktop/nutritionplans-desktop.jpeg)
-##### Tablet
-![nutrition plan](docs/tablet/nutritionplans-tablet.jpeg)
-##### Mobile
-![nutrition plan](docs/mobile/nutritionplan-mobile.jpeg)
+<details open>
+<summary>Desktop</summary>
+
+![nutrition plan-desktop](docs/desktop/nutritionplans-desktop.jpeg)
+</details>
+
+<details open>
+<summary>Tablet</summary>
+
+![nutrition plan-tablet](docs/tablet/nutritionplans-tablet.jpeg)
+</details>
+
+<details open>
+<summary>Mobile</summary>
+
+![nutrition plan-mobile](docs/mobile/nutritionplan-mobile.jpeg)
+</details>
 
 
 [Back to top](#table-of-contents)
@@ -138,24 +171,46 @@ In the products section, the site user can browse the online store and purchase 
 <a name="product-page"></a>
 ### Product Page
 
-##### Desktop
-![product page](docs/desktop/productpage-desktop.jpeg)
-##### Tablet
-![product page](docs/tablet/productpage-tablet.jpeg)
-##### Mobile
-![product page](docs/mobile/productpage-mobile.jpeg)
+<details open>
+<summary>Desktop</summary>
+
+![product page-desktop](docs/desktop/productpage-desktop.jpeg)
+</details>
+
+<details open>
+<summary>Tablet</summary>
+
+![product page-tablet](docs/tablet/productpage-tablet.jpeg)
+</details>
+
+<details open>
+<summary>Mobile</summary>
+
+![product page-mobile](docs/mobile/productpage-mobile.jpeg)
+</details>
 
 [Back to top](#table-of-contents)
 
 <a name="product-detail"></a>
 ### Product Detail
 
-##### Desktop
-![product detail](docs/desktop/productdetail-desktop.jpeg)
-##### Tablet
-![product detail](docs/tablet/productdetail-tabet.jpeg)
-##### Mobile
-![product detail](docs/mobile/productdetail-mobile.jpeg)
+<details open>
+<summary>Desktop</summary>
+
+![product detail-desktop](docs/desktop/productdetail-desktop.jpeg)
+</details>
+
+<details open>
+<summary>Tablet</summary>
+
+![product detail-tablet](docs/tablet/productdetail-tabet.jpeg)
+</details>
+
+<details open>
+<summary>Mobile</summary>
+
+![product detail-mobile](docs/mobile/productdetail-mobile.jpeg)
+</details>
 
 [Back to top](#table-of-contents)
 
@@ -163,44 +218,90 @@ In the products section, the site user can browse the online store and purchase 
 ### Shopping Cart
 
 #### Step 1
-##### Desktop
+
+<details open>
+<summary>Desktop</summary>
+
 ![shopping cart step 1](docs/desktop/shoppingcart-step1-desktop.jpeg)
-##### Tablet
+</details>
+
+<details open>
+<summary>Tablet</summary>
+
 ![shopping cart step 1](docs/tablet/shoppingcart-step1-tablet.jpeg)
-##### Mobile
+</details>
+
+<details open>
+<summary>Mobile</summary>
+
 ![shopping cart step 1](docs/mobile/shoppingcart-step1-mobile.jpeg)
+</details>
 
 #### Step 2
-##### Desktop
+
+<details open>
+<summary>Desktop</summary>
+
 ![shopping cart step 2](docs/desktop/shoppingcart-step2-desktop.jpeg)
-##### Tablet
+</details>
+
+<details open>
+<summary>Tablet</summary>
+
 ![shopping cart step 2](docs/tablet/shoppingcart-step2-tablet.jpeg)
-##### Mobile
+</details>
+
+<details open>
+<summary>Mobile</summary>
+
 ![shopping cart step 2](docs/mobile/shoppingcart-step2-mobile.jpeg)
+</details>
 
 [Back to top](#table-of-contents)
 
 <a name="order-summary"></a>
 ### Order Summary
 
-##### Desktop
+<details open>
+<summary>Desktop</summary>
+
 ![order summary](docs/desktop/ordersummary-desktop.jpeg)
-##### Tablet
+</details>
+
+<details open>
+<summary>Tablet</summary>
+
 ![order summary](docs/tablet/ordersummary-tablet.jpeg)
-##### Mobile
+</details>
+
+<details open>
+<summary>Mobile</summary>
+
 ![order summary](docs/mobile/ordersummary-mobile.jpeg)
+</details>
 
 [Back to top](#table-of-contents)
 
 <a name="contact"></a>
 ### Contact
 
-##### Desktop
+<details open>
+<summary>Desktop</summary>
+
 ![contact](docs/desktop/contact-desktop.jpeg)
-##### Tablet
+</details>
+
+<details open>
+<summary>Tablet</summary>
+
 ![contact](docs/tablet/contact-tablet.jpeg)
-##### Mobile
+</details>
+
+<details open>
+<summary>Mobile</summary>
+
 ![contact](docs/mobile/contact-mobile.jpeg)
+</details>
 
 [Back to top](#table-of-contents)
 

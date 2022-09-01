@@ -45,15 +45,12 @@ INSTALLED_APPS = [
     'fitness_plans',
     'nutrition_plans',
     'products',
-<<<<<<< HEAD
     'contact',
-=======
     'bag',
     'checkout',
     'profiles',
 
     'crispy_forms',
->>>>>>> main
 ]
 
 MIDDLEWARE = [

@@ -23,43 +23,6 @@
         </div>
         <div class="col-5 m-3 shadow p-3 mb-5 bg-white rounded text-center">
             <h3>Send Us a Message</h3>
-            <form action="{% url 'contact' %}" method="POST">
-                {% csrf_token %}
-                <div class="form-group">
-                    <input type="text" class="form-control" id="name" placeholder="Your name">
-                </div>
-
-                <div class="form-group">
-                    <input type="email" class="form-control" id="email" placeholder="Email">
-                </div>
-
-                <div class="form-group">
-                    <input type="text" class="form-control" id="dogs_name" placeholder="Name of your dog">
-                </div>
-
-                <div class="form-group">
-                    <input type="text" class="form-control" id="dogs_age" placeholder="Age of your dog">
-                </div>
-
-                <div class="form-group">
-                    <input type="text" class="form-control" id="dogs_breed" placeholder="Breed">
-                </div>
-
-                <div class="form-group">
-                    <select class="form-control" id="selectPlan">
-                        <option>Fitness Plan</option>
-                        <option>Nutrition Plan</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <textarea class="form-control" name="message" id="message" cols="30" rows="5"
-                        placeholder="Message"></textarea>
-                </div>
-
-
-                <button type="submit" class="btn btn-primary">Send message</button>
-            </form>
         </div>
     </div>
 </div>

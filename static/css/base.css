@@ -2,8 +2,13 @@ html {
     height: 100%;
 }
 
+header hr {
+    margin: 0;
+    border: 1.5px solid #000958;
+}
+
 #topnav {
-    background-color: #FDE7CB;
+    background-color: #FFFAF5;
 }
 
 body {
@@ -11,8 +16,12 @@ body {
     color: #000958;
 }
 
+.text-blue {
+    color: #000958 !important;
+}
+
 .content {
-    min-height: calc(100vh - 13rem);
+    min-height: calc(100vh - 12rem);
 }
 
 .btt-link,
@@ -23,7 +32,7 @@ body {
 
 footer {
     background-color: #FDE7CB;
-    min-height: 13rem;
+    min-height: 12rem;
 }
 
 input[name='q']::placeholder {

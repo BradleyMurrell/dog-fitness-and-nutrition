@@ -13,12 +13,12 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="product-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'home' %}" id="product-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Fitness &amp; Nutrition Supplies
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="product-link">
-                <a href="" class="dropdown-item">Fitness Supplies</a>
-                <a href="" class="dropdown-item">Nutritional Supplies</a>
+                <a href="{% url 'products' %}?category=fitness_supplies" class="dropdown-item">Fitness Supplies</a>
+                <a href="{% url 'products' %}?category=nutrition_supplies" class="dropdown-item">Nutritional Supplies</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>

@@ -25,5 +25,11 @@ urlpatterns = [
     path('fitness_plans/', include('fitness_plans.urls')),
     path('nutrition_plans/', include('nutrition_plans.urls')),
     path('products/', include('products.urls')),
+<<<<<<< HEAD
     path('contact/', include('contact.urls')),
+=======
+    path('bag/', include('bag.urls')),
+    path('checkout/', include('checkout.urls')),
+    path('profile/', include('profiles.urls')),
+>>>>>>> main
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

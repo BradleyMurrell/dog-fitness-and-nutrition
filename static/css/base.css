@@ -1,10 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Syncopate&family=Ubuntu&display=swap');
+
 html {
     height: 100%;
 }
 
+h3 {
+    font-family: 'Syncopate', sans-serif;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 header hr {
     margin: 0;
-    border: 1.5px solid #000958;
+    border: 1.5px solid #6B7A8F;
 }
 
 #topnav {
@@ -13,11 +23,15 @@ header hr {
 
 body {
     background-color: #FFFAF5;
-    color: #000958;
+    color: #6B7A8F;
 }
 
 .text-blue {
-    color: #000958 !important;
+    color: #6B7A8F !important;
+}
+
+.text-red {
+    color: #FF3B3F !important;
 }
 
 .content {
@@ -31,7 +45,8 @@ body {
 }
 
 footer {
-    background-color: #FDE7CB;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #6B7A8F;
     min-height: 12rem;
 }
 

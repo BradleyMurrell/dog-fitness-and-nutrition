@@ -14,7 +14,7 @@ p {
 
 header hr {
     margin: 0;
-    border: 1.5px solid #6B7A8F;
+    border-top: 1.5px solid #6B7A8F;
 }
 
 #topnav {
@@ -223,5 +223,21 @@ input[name='q']::placeholder {
 
     .header-container {
         padding-top: 164px;
+    }
+}
+
+/* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
+    }
+
+    h3 {
+        font-size: 1rem;
+        text-align: center;
     }
 }

@@ -24,3 +24,24 @@ img {
     background-color: #EFEFEF;
     padding-right: 8rem;
 }
+
+@media (max-width: 991px) {
+    #dog-playing {
+        display: none;
+    }
+
+    #info {
+        font-size: 2px;
+        padding: 2rem;
+        margin-top: 2rem;
+    }
+
+    #our-story {
+        text-align: center;
+        padding: 1rem;
+    }
+
+    img {
+        height: 200px;
+    }
+}

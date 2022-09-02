@@ -38,16 +38,16 @@ body {
     min-height: calc(100vh - 12rem);
 }
 
-.btt-link,
-.update-link,
-.remove-item {
-    cursor: pointer;
-}
-
 footer {
     font-family: 'Ubuntu', sans-serif;
     background-color: #6B7A8F;
     min-height: 12rem;
+}
+
+.btt-link,
+.update-link,
+.remove-item {
+    cursor: pointer;
 }
 
 input[name='q']::placeholder {
@@ -232,12 +232,16 @@ input[name='q']::placeholder {
         padding-top: 116px;
     }
 
+    header {
+        font-size: 11px;
+    }
+
     body {
         height: calc(100vh - 116px);
     }
 
     h3 {
-        font-size: 1rem;
+        font-size: 16px;
         text-align: center;
     }
 }

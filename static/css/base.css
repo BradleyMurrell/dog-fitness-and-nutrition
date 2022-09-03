@@ -54,6 +54,11 @@ footer {
     cursor: pointer;
 }
 
+.btt-button {
+    height: 42px;
+    width: 42px;
+}
+
 input[name='q']::placeholder {
     color: #aab7c4;
 }

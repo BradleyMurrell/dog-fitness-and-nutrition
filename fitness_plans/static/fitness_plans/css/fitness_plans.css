@@ -11,10 +11,6 @@
     height: 80%;
 }
 
-.btn-danger {
-    background-color: #FF3B3F !important;
-}
-
 @media (max-width: 1662px) {
     #title-card{
         position: relative;

@@ -34,6 +34,10 @@ body {
     color: #FF3B3F !important;
 }
 
+.btn-danger {
+    background-color: #FF3B3F !important;
+}
+
 .content {
     min-height: calc(100vh - 12rem);
 }

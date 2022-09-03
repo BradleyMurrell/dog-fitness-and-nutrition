@@ -15,7 +15,7 @@
 {% block content %}
 <div class="container">
     <div class="row">
-        <div class="col-6 m-3 shadow p-3 mb-5 bg-white rounded text-center">
+        <div class="col-5 m-3 shadow p-3 mb-5 bg-white rounded text-center">
             <h3>Contact Information</h3>
             <div>
 
@@ -23,6 +23,11 @@
         </div>
         <div class="col-5 m-3 shadow p-3 mb-5 bg-white rounded text-center">
             <h3>Send Us a Message</h3>
+            <form action="" method="post">
+                {% csrf_token %}
+                {{ form }}
+                <input type="submit" value="Submit">
+             </form>
         </div>
     </div>
 </div>

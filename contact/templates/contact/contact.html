@@ -23,11 +23,11 @@
             </div>
         </div>
         <div class="col-5 m-3 shadow p-3 mb-5 bg-white rounded">
-            <h3 class=" text-center">Send Us a Message</h3>
+            <h3 class="text-center">Send Us a Message</h3>
             <form action="" method="post">
                 {% csrf_token %}
                 {{ form }}
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" class="btn btn-danger btn-block p-3 shadow rounded-pill">
              </form>
         </div>
     </div>

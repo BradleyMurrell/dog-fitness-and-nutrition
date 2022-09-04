@@ -16,9 +16,24 @@
 {% block content %}
 <div class="container">
     <div class="row">
-        <h1>Thank you for your inquiry!</h1>
-        <br>
-        <p>Your contact information and message was successfully submitted.</p>
+        <div class="col-12 text-center">
+            <h1>Thank you for your message!</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 text-center p-5">
+            <p>Your contact information and message was successfully submitted.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 text-center">
+            <a href="{% url 'contact' %}" class="btn my-2">
+                <span class="icon mr-2">
+                    <i class="fas fa-angle-left"></i>
+                </span>
+                <span class="text-uppercase">Back</span>
+            </a>
+        </div>
     </div>
 </div>
 {% endblock %}

@@ -1,1 +1,1 @@
-web: gunicorn dog_fitness_and_nutrition.wsgi
+web: gunicorn dog-fitness-and-nutrition.wsgi

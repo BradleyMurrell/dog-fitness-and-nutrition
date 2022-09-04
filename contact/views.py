@@ -20,7 +20,7 @@ def contact(request):
                 'message': message
             })
 
-            send_mail('Form subject', 'Form message', 'DEFAULT_FROM_EMAIL', ['b.murrell89@gmail.com'], html_message=html)
+            send_mail('Form subject', 'Form message', 'DEFAULT_FROM_EMAIL', ['dog.fitness.nutrition@gmail.com'], html_message=html)
 
             return render(request, 'contact/contact_success.html')
 

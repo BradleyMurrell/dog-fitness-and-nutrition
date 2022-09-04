@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-4_7sk1(n2v8+z5=_*z01(^pkibn90s&&jyn1($x(1h=4u0112s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['dog-fitness-and-nutrition.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -124,12 +124,17 @@ WSGI_APPLICATION = 'dog_fitness_and_nutrition.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
-}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
 
 # Password validation

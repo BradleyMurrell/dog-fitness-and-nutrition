@@ -386,32 +386,39 @@ In the products section, the site user can browse the online store and purchase 
 | ---- | ---- | ---- | ---- |
 | name |  | CharField | max_length=50 null=False, blank=False |
 | email |  | EmailField | max_length=254 null=False, blank=False |
-| dogs_name |  | CharField | max_length=50 null=False, blank=False |
-| dogs_age |  | CharField | max_length=50 null=False, blank=False |
-| dogs_breed |  | CharField | max_length=50 null=False, blank=False |
-| fitness_plan | FK (FitnessPlan) | | null=True, on_delete=models.SET_NULL |
-| nutrition_plan | FK (NutritionPlan) | | null=True, on_delete=models.SET_NULL |
 | message |  | CharField | max_length=2000 null=False, blank=False |
 
 ### Fitness Plan
 
 | Name | Key | Type | Other Details |
 | ---- | ---- | ---- | ---- |
-| sessions |  | BooleanField | default=False, null=False, blank=False |
+| your_name |  | CharField | max_length=50 null=False, blank=False |
+| dogs_name |  | CharField | max_length=50 null=False, blank=False |
+| dogs_age |  | CharField | max_length=50 null=False, blank=False |
+| dogs_breed |  | CharField | max_length=50 null=False, blank=False |
+| sessions |  | ChoiceField | default=False, null=False, blank=False |
+| email |  | EmailField | max_length=254 null=False, blank=False |
+| message |  | CharField | max_length=2000 null=False, blank=False |
 
 ### Nutrition Plan
 
 | Name | Key | Type | Other Details |
 | ---- | ---- | ---- | ---- |
-| dogs_gender |  | BooleanField | default=False, null=False, blank=False |
+| your_name |  | CharField | max_length=50 null=False, blank=False |
+| dogs_name |  | CharField | max_length=50 null=False, blank=False |
+| dogs_breed |  | CharField | max_length=50 null=False, blank=False |
+| dogs_age |  | CharField | max_length=50 null=False, blank=False |
+| dogs_gender |  | ChoiceField | default=False, null=False, blank=False |
 | dogs_weight |  | CharField | max_length=50 null=False, blank=False |
-| dogs_physique |  | BooleanField | default=False, null=False, blank=False |
-| active_level |  | BooleanField | default=False, null=False, blank=False |
-| eating_habit |  | BooleanField | default=False, null=False, blank=False |
+| dogs_physique |  | ChoiceField | default=False, null=False, blank=False |
+| active_level |  | ChoiceField | default=False, null=False, blank=False |
+| eating_habit |  | ChoiceField | default=False, null=False, blank=False |
 | does_not_eat |  | CharField | max_length=50 null=True, blank=True |
 | allergies |  | CharField | max_length=50 null=True, blank=True |
-| food_preference |  | BooleanField | default=False, null=False, blank=False |
-| outcome_goal |  | BooleanField | default=False, null=False, blank=False |
+| food_preference |  | ChoiceField | default=False, null=False, blank=False |
+| outcome_goal |  | ChoiceField | default=False, null=False, blank=False |
+| email |  | EmailField | max_length=254 null=False, blank=False |
+| message |  | CharField | max_length=2000 null=False, blank=False |
 
 [Back to top](#table-of-contents)
 

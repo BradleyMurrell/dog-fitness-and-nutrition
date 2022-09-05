@@ -479,10 +479,16 @@ In the products section, the site user can browse the online store and purchase 
 <a name="deployment"></a>
 ## Deployment
 
+The live link can be found here - https://dog-fitness-and-nutrition.herokuapp.com/
+
 [Back to top](#table-of-contents)
 
 <a name="credits"></a>
 ## Credits
+
+* Simen Daehlin (Mentor)
+* Code Institude
+    * This project was largely based off the Boutique Ado project
 
 [Back to top](#table-of-contents)
 
@@ -490,5 +496,7 @@ In the products section, the site user can browse the online store and purchase 
 ## Content
 
 * Images sourced from https://unsplash.com/
+* Wireframe created on https://app.uizard.io/
+* Fonts sourced from https://fonts.google.com/
 
 [Back to top](#table-of-contents)

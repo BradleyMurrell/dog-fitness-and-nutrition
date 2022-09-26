@@ -497,10 +497,10 @@ In the products section, the site user can browse the online store and purchase 
 
 ### JS
 
-| File Name | File Path | Result | JSHint | Comment |
-| ----- | ----- | ----- | ----- | ----- |
-| countryfield.js | profiles/countryfield.js |  | [link]() |
-| stripe_elements.js | checkout/stripe_elements.js |  | [link]() |
+| File Name | File Path | JSHint | Comment |
+| ----- | ----- | ----- | ----- |
+| countryfield.js | profiles/countryfield.js | [link](docs/countryfieldjstest.png) |
+| stripe_elements.js | checkout/stripe_elements.js | [link](docs/stripeelementsjstest.png) |
 
 [Back to top](#table-of-contents)
 

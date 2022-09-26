@@ -101,19 +101,19 @@ In the products section, the site user can browse the online store and purchase 
 <a name="homepage"></a>
 ### Homepage
 
-<details open>
+<details>
 <summary>Desktop</summary>
 
 ![homepage-desktop](docs/desktop/homescreen-desktop.jpeg)
 </details>
 
-<details open>
+<details>
 <summary>Tablet</summary>
 
 ![homepage-tablet](docs/tablet/homescreen-tablet.jpeg)
 </details>
 
-<details open>
+<details>
 <summary>Mobile</summary>
 
 ![homepage-mobile](docs/mobile/homescreen-mobile.jpeg)
@@ -124,19 +124,19 @@ In the products section, the site user can browse the online store and purchase 
 <a name="fitness-plan"></a>
 ### Fitness Plan
 
-<details open>
+<details>
 <summary>Desktop</summary>
 
 ![fitness plan-desktop](docs/desktop/fitnessplans-desktop.jpeg)
 </details>
 
-<details open>
+<details>
 <summary>Tablet</summary>
 
 ![fitness plan-tablet](docs/tablet/fitnessplans-tablet.jpeg)
 </details>
 
-<details open>
+<details>
 <summary>Mobile</summary>
 
 ![fitness plan-mobile](docs/mobile/fitnessplan-mobile.jpeg)
@@ -147,19 +147,19 @@ In the products section, the site user can browse the online store and purchase 
 <a name="nutrition-plan"></a>
 ### Nutrition Plan
 
-<details open>
+<details>
 <summary>Desktop</summary>
 
 ![nutrition plan-desktop](docs/desktop/nutritionplans-desktop.jpeg)
 </details>
 
-<details open>
+<details>
 <summary>Tablet</summary>
 
 ![nutrition plan-tablet](docs/tablet/nutritionplans-tablet.jpeg)
 </details>
 
-<details open>
+<details>
 <summary>Mobile</summary>
 
 ![nutrition plan-mobile](docs/mobile/nutritionplan-mobile.jpeg)
@@ -171,19 +171,19 @@ In the products section, the site user can browse the online store and purchase 
 <a name="product-page"></a>
 ### Product Page
 
-<details open>
+<details>
 <summary>Desktop</summary>
 
 ![product page-desktop](docs/desktop/productpage-desktop.jpeg)
 </details>
 
-<details open>
+<details>
 <summary>Tablet</summary>
 
 ![product page-tablet](docs/tablet/productpage-tablet.jpeg)
 </details>
 
-<details open>
+<details>
 <summary>Mobile</summary>
 
 ![product page-mobile](docs/mobile/productpage-mobile.jpeg)
@@ -194,19 +194,19 @@ In the products section, the site user can browse the online store and purchase 
 <a name="product-detail"></a>
 ### Product Detail
 
-<details open>
+<details>
 <summary>Desktop</summary>
 
 ![product detail-desktop](docs/desktop/productdetail-desktop.jpeg)
 </details>
 
-<details open>
+<details>
 <summary>Tablet</summary>
 
 ![product detail-tablet](docs/tablet/productdetail-tabet.jpeg)
 </details>
 
-<details open>
+<details>
 <summary>Mobile</summary>
 
 ![product detail-mobile](docs/mobile/productdetail-mobile.jpeg)
@@ -219,19 +219,19 @@ In the products section, the site user can browse the online store and purchase 
 
 #### Step 1
 
-<details open>
+<details>
 <summary>Desktop</summary>
 
 ![shopping cart step 1](docs/desktop/shoppingcart-step1-desktop.jpeg)
 </details>
 
-<details open>
+<details>
 <summary>Tablet</summary>
 
 ![shopping cart step 1](docs/tablet/shoppingcart-step1-tablet.jpeg)
 </details>
 
-<details open>
+<details>
 <summary>Mobile</summary>
 
 ![shopping cart step 1](docs/mobile/shoppingcart-step1-mobile.jpeg)
@@ -239,19 +239,19 @@ In the products section, the site user can browse the online store and purchase 
 
 #### Step 2
 
-<details open>
+<details>
 <summary>Desktop</summary>
 
 ![shopping cart step 2](docs/desktop/shoppingcart-step2-desktop.jpeg)
 </details>
 
-<details open>
+<details>
 <summary>Tablet</summary>
 
 ![shopping cart step 2](docs/tablet/shoppingcart-step2-tablet.jpeg)
 </details>
 
-<details open>
+<details>
 <summary>Mobile</summary>
 
 ![shopping cart step 2](docs/mobile/shoppingcart-step2-mobile.jpeg)
@@ -262,19 +262,19 @@ In the products section, the site user can browse the online store and purchase 
 <a name="order-summary"></a>
 ### Order Summary
 
-<details open>
+<details>
 <summary>Desktop</summary>
 
 ![order summary](docs/desktop/ordersummary-desktop.jpeg)
 </details>
 
-<details open>
+<details>
 <summary>Tablet</summary>
 
 ![order summary](docs/tablet/ordersummary-tablet.jpeg)
 </details>
 
-<details open>
+<details>
 <summary>Mobile</summary>
 
 ![order summary](docs/mobile/ordersummary-mobile.jpeg)
@@ -285,19 +285,19 @@ In the products section, the site user can browse the online store and purchase 
 <a name="contact"></a>
 ### Contact
 
-<details open>
+<details>
 <summary>Desktop</summary>
 
 ![contact](docs/desktop/contact-desktop.jpeg)
 </details>
 
-<details open>
+<details>
 <summary>Tablet</summary>
 
 ![contact](docs/tablet/contact-tablet.jpeg)
 </details>
 
-<details open>
+<details>
 <summary>Mobile</summary>
 
 ![contact](docs/mobile/contact-mobile.jpeg)
@@ -453,11 +453,6 @@ In the products section, the site user can browse the online store and purchase 
 
 [Back to top](#table-of-contents)
 
-<a name="am-i-responsive"></a>
-## Am I Responsive
-
-[Back to top](#table-of-contents)
-
 <a name="testing"></a>
 ## Testing
 
@@ -466,18 +461,72 @@ In the products section, the site user can browse the online store and purchase 
 <a name="validator-testing"></a>
 ## Validator Testing
 
+### HTML
+
+| File Name | File Path | Result | W3C | Error/Warning | Comment |
+| ----- | ----- | ----- | ----- | -----| ----- |
+| base.html | /base.html |  | [link]() |
+| index.html | home/index.html |  | [link]() |
+| fitness_plans.html | fitness_plans/fitness_plans.html |  | [link]() |
+| fitness_plans_contact.html | fitness_plans/fitness_plans_contact.html |  | [link]() |
+| nutrition_plans.html | nutrition_plans/nutrition_plans.html |  | [link]() |
+| nutrition_plans_contact.html | nutrition_plans/nutrition_plans_contact.html |  | [link]() |
+| products.html | products/products.html |  | [link]() |
+| product_detail.html | products/product_detail.html |  | [link]() |
+| edit_product.html | products/edit_product.html |  | [link]() |
+| add_product.html | products/add_product.html |  | [link]() |
+| contact.html | contact/contact.html |  | [link]() |
+| contact_success.html | contact/contact_success.html |  | [link]() |
+| checkout.html | checkout/checkout.html |  | [link]() |
+| checkout_success.html | checkout/checkout_success.html |  | [link]() |
+| bag.html | bag/bag.html |  | [link]() |
+| profile.html | profiles/profile.html |  | [link]() |
+
+
+### CSS
+
+| File Name | File Path | Result | W3C CSS | Error/Warning | Comment |
+| ----- | ----- | ----- | ----- | -----| ----- |
+| base.css | /base.css |  | [link]() |
+| home.css | home/home.css |  | [link]() |
+| profile.css | profiles/profile.css |  | [link]() |
+| nutrition_plans.css | nutrition_plans/nutrition_plans.css |  | [link]() |
+| fitness_plans.css | fitness_plans/fitness_plans.css |  | [link]() |
+| contact.css | contact/contact.css |  | [link]() |
+| checkout.css | checkout/checkout.css |  | [link]() |
+
+### JS
+
+| File Name | File Path | Result | JSHint | Comment |
+| ----- | ----- | ----- | ----- | ----- |
+| countryfield.js | profiles/countryfield.js |  | [link]() |
+| stripe_elements.js | checkout/stripe_elements.js |  | [link]() |
+
 [Back to top](#table-of-contents)
 
 <a name="bugs"></a>
 ## Bugs
-* Fixed
 
-* Unfixed
+| Issue | Comment |
+| ----- | ----- |
+|  |  |
+
+## Fixed Bugs
+
+| Issue | Commit | File Name | Line | Comment |
+| ----- | ----- | ----- | ----- | ----- |
+|  |  |  |  |
 
 [Back to top](#table-of-contents)
 
 <a name="deployment"></a>
 ## Deployment
+This project was deployed using Heroku
+* Steps for deployment
+  * Create a Heroku app
+  * Change `DEBUG` in ***settings.py*** to `False`
+  * Link the Heroku app to the repository
+  * Click on deploy
 
 The live link can be found here - https://dog-fitness-and-nutrition.herokuapp.com/
 

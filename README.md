@@ -462,28 +462,6 @@ In the products section, the site user can browse the online store and purchase 
 <a name="validator-testing"></a>
 ## Validator Testing
 
-### HTML
-
-| File Name | File Path | Result | W3C | Error/Warning | Comment |
-| ----- | ----- | ----- | ----- | -----| ----- |
-| base.html | /base.html |  | [link]() |
-| index.html | home/index.html |  | [link]() |
-| fitness_plans.html | fitness_plans/fitness_plans.html |  | [link]() |
-| fitness_plans_contact.html | fitness_plans/fitness_plans_contact.html |  | [link]() |
-| nutrition_plans.html | nutrition_plans/nutrition_plans.html |  | [link]() |
-| nutrition_plans_contact.html | nutrition_plans/nutrition_plans_contact.html |  | [link]() |
-| products.html | products/products.html |  | [link]() |
-| product_detail.html | products/product_detail.html |  | [link]() |
-| edit_product.html | products/edit_product.html |  | [link]() |
-| add_product.html | products/add_product.html |  | [link]() |
-| contact.html | contact/contact.html |  | [link]() |
-| contact_success.html | contact/contact_success.html |  | [link]() |
-| checkout.html | checkout/checkout.html |  | [link]() |
-| checkout_success.html | checkout/checkout_success.html |  | [link]() |
-| bag.html | bag/bag.html |  | [link]() |
-| profile.html | profiles/profile.html |  | [link]() |
-
-
 ### CSS
 
 | File Name | File Path | Result | W3C CSS | Error/Warning | Comment |

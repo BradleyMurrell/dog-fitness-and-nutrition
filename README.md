@@ -23,6 +23,7 @@
 * [Am I Responsive](#am-i-responsive)
 * [Testing](#testing)
 * [Validator Testing](#validator-testing)
+* [Lighthouse Testing](#lighthouse-testing)
 * [Bugs](#bugs)
 * [Deployment](#deployment)
 * [Credits](#credits)
@@ -501,6 +502,22 @@ In the products section, the site user can browse the online store and purchase 
 | ----- | ----- | ----- | ----- |
 | countryfield.js | profiles/countryfield.js | [link](docs/countryfieldjstest.png) |
 | stripe_elements.js | checkout/stripe_elements.js | [link](docs/stripeelementsjstest.png) |
+
+[Back to top](#table-of-contents)
+
+<a name="lighthouse-testing"></a>
+## Lighthouse Testing
+
+| Page Name | Lighthouse | Error/Warning | Comment |
+| ----- | ----- | -----| ----- |
+| Home |  |  |
+| Fitness Plan |  |  |
+| Nutrition Plan |  |  |
+| Products |  |  |
+| Products Detail |  |  |
+| Shopping Cart |  |  |
+| Order Summary |  |  |
+| Contact |  |  |
 
 [Back to top](#table-of-contents)
 

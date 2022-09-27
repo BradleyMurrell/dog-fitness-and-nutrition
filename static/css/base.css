@@ -242,7 +242,7 @@ input[name='q']::placeholder {
     }
 
     header {
-        font-size: 1rem;
+        font-size: 11px;
     }
 
     body {

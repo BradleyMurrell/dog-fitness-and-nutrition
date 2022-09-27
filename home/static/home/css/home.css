@@ -31,10 +31,9 @@ img {
     }
 
     #info {
-        font-size: 1rem;
-        padding: 3rem;
+        font-size: 2px;
+        padding: 2rem;
         margin-top: 3rem;
-        text-align: center;
     }
 
     #our-story {

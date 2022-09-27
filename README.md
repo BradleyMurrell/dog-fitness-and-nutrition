@@ -486,7 +486,7 @@ In the products section, the site user can browse the online store and purchase 
 <a name="lighthouse-testing"></a>
 ## Lighthouse Testing
 
-| Page Name | Lighthouse | Error/Warning | Comment |
+| Page Name | Lighthouse | Desktop/Mobile | Comment |
 | ----- | ----- | -----| ----- |
 | Home |  |  |
 | Fitness Plan |  |  |

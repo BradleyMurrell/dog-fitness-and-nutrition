@@ -427,21 +427,97 @@ In the products section, the site user can browse the online store and purchase 
 ## Features
 
 * ***Brand*** image for website
-![brand](docs/brand.png)
+    <details>
+    <summary>Image</summary>
+
+    ![Brand](docs/brand.png)
+    </details>
+
+---
+
 * ***Homepage*** where the site user can read about the company and navigate to different areas of the website
+    <details>
+    <summary>Image</summary>
+
+    ![Homepage](docs/pagehome.png)
+    </details>
+
+---
+
 * ***Fitness plan*** page where the site user can read about the benefits of keeping their dog fit
+
 * Option to ***subscribe*** to a ***fitness plan***
+    <details>
+    <summary>Image</summary>
+
+    ![Fitnessplan](docs/pagefitness.png)
+    </details>
+
+---
+
 * ***Nutrition plan*** page where the site user can read about the benefits of feeding their dog a healthy diet
+
 * Option to ***subscribe*** to a ***nutrition plan***
+    <details>
+    <summary>Image</summary>
+
+    ![Nutritionplan](docs/pagenutrition.png)
+    </details>
+
+---
+
 * ***Product page*** where the site user can browse the online store
+
 * Option to ***make purchases*** from the store
+    <details>
+    <summary>Image</summary>
+
+    ![Productpage](docs/pageproduct.png)
+    </details>
+
+---
+
 * ***Product detail*** page where the site user can view details on a specific product
+
 * Option to view and leave ***ratings and reviews***
+    <details>
+    <summary>Image</summary>
+
+    ![Productdetail](docs/pagedetail.png)
+    </details>
+
+---
+
 * ***Shopping cart*** page where the site user can view the products that they have put in the cart
+
 * Option to proceed to ***checkout*** to complete product purchases
+    <details>
+    <summary>Image</summary>
+
+    ![Shoppingcart](docs/pageshoppingbag.png)
+    </details>
+
+---
+
 * ***Checkout page*** where the site user can enter their details and complete their purchase
+    <details>
+    <summary>Image</summary>
+
+    ![Checkoutpage](docs/pagecheckout.png)
+    </details>
+
+---
+
 * ***Contact page*** where the site user can find contact information of the company
+    <details>
+    <summary>Image</summary>
+
+    ![Contactpage](docs/pagecontact.png)
+    </details>
+
 * Option to ***send a message*** directly from the contact page
+
+---
 
 [Back to top](#table-of-contents)
 

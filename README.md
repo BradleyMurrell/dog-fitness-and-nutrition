@@ -486,16 +486,16 @@ In the products section, the site user can browse the online store and purchase 
 <a name="lighthouse-testing"></a>
 ## Lighthouse Testing
 
-| Page Name | Lighthouse | Desktop/Mobile | Comment |
-| ----- | ----- | -----| ----- |
-| Home |  |  |
-| Fitness Plan |  |  |
-| Nutrition Plan |  |  |
-| Products |  |  |
-| Products Detail |  |  |
-| Shopping Cart |  |  |
-| Order Summary |  |  |
-| Contact |  |  |
+| Page Name | Desktop/Mobile | Comment |
+| ----- | ----- | -----|
+| Home | [link](docs/lighthousehomedesk.png) / [link](docs/lighthousehomemob.png) |
+| Fitness Plan | [link](docs/lighthousefitnessdesk.png) / [link](docs/lighthousefitnessmob.png) |
+| Nutrition Plan | [link](docs/lighthousenutritiondesk.png) / [link](docs/lighthousenutritionmob.png) |
+| Products | [link](docs/lighthouseproductdesk.png) / [link](docs/lighthouseproductmob.png) |
+| Products Detail | [link](docs/lighthousedetailsdesk.png) / [link](docs/lighthousedetailsmob.png) |
+| Shopping Cart | [link](docs/lighthousebagdesk.png) / [link](docs/lighthousebagmob.png) |
+| Order Summary | [link](docs/lighthousecheckoutdesk.png) / [link](docs/lighthousecheckoutmob.png) |
+| Contact | [link](docs/lighthousecontactdesk.png) / [link](docs/lighthousecontactmob.png) |
 
 [Back to top](#table-of-contents)
 

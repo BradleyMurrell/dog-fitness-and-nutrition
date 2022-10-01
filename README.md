@@ -312,28 +312,46 @@ In the products section, the site user can browse the online store and purchase 
 <a name="app-flow"></a>
 ### App Flow
 
-#### Guest User
+<details>
+<summary>Guest User</summary>
+
 ![guest user](docs/guest-user.png)
+</details>
 
-#### Authenticated User
+<details>
+<summary>Authenticated User</summary>
+
 ![authenticated user](docs/authenticated-user.png)
+</details>
 
-#### Admin
+<details>
+<summary>Admin</summary>
+
 ![admin](docs/admin.png)
+</details>
 
 [Back to top](#table-of-contents)
 
 <a name="data-schema"></a>
 ### Data Schema
 
-#### Products
+<details>
+<summary>Products</summary>
+
 ![products](docs/products.png)
+</details>
 
-#### Orders
+<details>
+<summary>Orders</summary>
+
 ![orders](docs/orders.png)
+</details>
 
-#### Contact
-![orders](docs/contact.png)
+<details>
+<summary>Contact</summary>
+
+![contact](docs/contact.png)
+</details>
 
 [Back to top](#table-of-contents)
 

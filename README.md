@@ -19,6 +19,7 @@
     * [Data Schema](#data-schema)
 * [Models](#models)
 * [Features](#features)
+* [Marketing](#marketing)
 * [Colors Used](#colors-used)
 * [Am I Responsive](#am-i-responsive)
 * [Testing](#testing)
@@ -534,6 +535,21 @@ In the products section, the site user can browse the online store and purchase 
     </details>
 
 * Option to ***send a message*** directly from the contact page
+
+---
+
+[Back to top](#table-of-contents)
+
+<a name="marketing"></a>
+## Marketing
+
+### Facebook - https://www.facebook.com/profile.php?id=100086354232340
+
+![fbheading](docs/facebook-heading.png)
+![fbbody](docs/facebook-body.png)
+![fbpost](docs/facebook-post.png)
+![fbinfo](docs/facebook-info.png)
+
 
 ---
 

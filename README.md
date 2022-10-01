@@ -551,22 +551,20 @@ In the products section, the site user can browse the online store and purchase 
 <a name="testing"></a>
 ## Testing
 
-[Back to top](#table-of-contents)
-
 <a name="validator-testing"></a>
 ## Validator Testing
 
 ### CSS
 
-| File Name | File Path | Result | W3C CSS | Error/Warning | Comment |
-| ----- | ----- | ----- | ----- | -----| ----- |
-| base.css | /base.css |  | [link]() |
-| home.css | home/home.css |  | [link]() |
-| profile.css | profiles/profile.css |  | [link]() |
-| nutrition_plans.css | nutrition_plans/nutrition_plans.css |  | [link]() |
-| fitness_plans.css | fitness_plans/fitness_plans.css |  | [link]() |
-| contact.css | contact/contact.css |  | [link]() |
-| checkout.css | checkout/checkout.css |  | [link]() |
+| File Name | File Path | Result | Error/Warning | Comment |
+| ----- | ----- | ----- | ----- | ----- |
+| base.css | /base.css | ![CSS](http://jigsaw.w3.org/css-validator/images/vcss-blue) | 7 warnings -  [link](docs/basecss.png) |
+| home.css | home/home.css | ![CSS](http://jigsaw.w3.org/css-validator/images/vcss-blue) |  |
+| profile.css | profiles/profile.css | ![CSS](http://jigsaw.w3.org/css-validator/images/vcss-blue) |  |
+| fitness_plans.css | fitness_plans/fitness_plans.css | ![CSS](http://jigsaw.w3.org/css-validator/images/vcss-blue) |  |
+| nutrition_plans.css | nutrition_plans/nutrition_plans.css | ![CSS](http://jigsaw.w3.org/css-validator/images/vcss-blue) |  |
+| contact.css | contact/contact.css | ![CSS](http://jigsaw.w3.org/css-validator/images/vcss-blue) | 3 warnings -  [link](docs/contactcss.png) |
+| checkout.css | checkout/checkout.css | ![CSS](http://jigsaw.w3.org/css-validator/images/vcss-blue) | 1 warning -  [link](docs/checkoutcss.png) |
 
 ### JS
 

@@ -570,7 +570,7 @@ The user can view directions to where the fitness sessions are held.
 <a name="colors-used"></a>
 ## Colors Used
 
-These are the primary colors that I have used throughout the website. I wanted to use soft background colors so that the content can be the main focus.
+These are the primary colors that I have used throughout the website. I wanted to use soft background colors so that the content can be the main focus. I used red for the buttons so that they can stand out and a soft blue/grey color for the footer and text as I felt that the contrast with the lighter colors have a pleasant look.
 
 | #6B7A8F | #FF3B3F | #F2F2F2 | #FDE7CB | #FFFFFF |
 | ---- | ---- | ---- | ---- | ---- |

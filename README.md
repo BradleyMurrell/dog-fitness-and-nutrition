@@ -570,9 +570,11 @@ The user can view directions to where the fitness sessions are held.
 <a name="colors-used"></a>
 ## Colors Used
 
-| #000958 | #FDE7CB | #F2F2F2 | #FFFAF5 | #FFFFFF |
+These are the primary colors that I have used throughout the website. I wanted to use soft background colors so that the content can be the main focus.
+
+| #6B7A8F | #FF3B3F | #F2F2F2 | #FDE7CB | #FFFFFF |
 | ---- | ---- | ---- | ---- | ---- |
-| ![#000958](docs/colors/000958.png) | ![#FDE7CB](docs/colors/FDE7CB.png) | ![#F2F2F2](docs/colors/F2F2F2.png) | ![#FFFAF5](docs/colors/FFFAF5.png) | ![#FFFFFF](docs/colors/FFFFFF.png) |
+| ![#6B7A8F](docs/6B7A8F.png) | ![#FF3B3F](docs/FF3B3F.png) | ![#F2F2F2](docs/F2F2F2.png) | ![#FDE7CB](docs/FDE7CB.png) | ![#FFFFFF](docs/FFFFFF.png) |
 
 [Back to top](#table-of-contents)
 

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /account/
+Disallow: /bag/
+Sitemap: https://dog-fitness-and-nutrition.herokuapp.com/sitemap.xml

@@ -543,7 +543,28 @@ In the products section, the site user can browse the online store and purchase 
 <a name="marketing"></a>
 ## Marketing
 
-### Facebook - https://www.facebook.com/profile.php?id=100086354232340
+### Keywords
+List of the top 15 relevent keywords according to https://www.wordtracker.com/
+
+* Healthy dog diet
+* Dog nutrition
+* Diet dog food
+* Dog food for seniors
+* Dog workout
+* Dog exercises
+* Puppy exercise
+* Dog strength training
+* Dog weight training
+* K9 fitness
+* Canine fitness
+* Workout with your dog
+* Dog leashes
+* Dog store
+* Dog supplies
+
+### Social Media
+
+Facebook - https://www.facebook.com/profile.php?id=100086354232340
 
 I have used Facebook as a marketing strategy for Dog Fitness and Nutrition.
 

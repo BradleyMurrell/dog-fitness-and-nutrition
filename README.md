@@ -545,9 +545,21 @@ In the products section, the site user can browse the online store and purchase 
 
 ### Facebook - https://www.facebook.com/profile.php?id=100086354232340
 
+I have used Facebook as a marketing strategy for Dog Fitness and Nutrition.
+
 ![fbheading](docs/facebook-heading.png)
+
+In the intro section, the user can view contact details as well a link to the website.
+
 ![fbbody](docs/facebook-body.png)
+
+The admin can post updates to the store with a link to the relevant website page.
+The user can comment, share and like the post.
+
 ![fbpost](docs/facebook-post.png)
+
+The user can view directions to where the fitness sessions are held.
+
 ![fbinfo](docs/facebook-info.png)
 
 

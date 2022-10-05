@@ -23,6 +23,7 @@
 * [Colors Used](#colors-used)
 * [Am I Responsive](#am-i-responsive)
 * [Testing](#testing)
+* [Python Testing](#python-testing)
 * [Validator Testing](#validator-testing)
 * [Lighthouse Testing](#lighthouse-testing)
 * [Bugs](#bugs)
@@ -543,25 +544,6 @@ In the products section, the site user can browse the online store and purchase 
 <a name="marketing"></a>
 ## Marketing
 
-### Keywords
-List of the top 15 relevent keywords according to https://www.wordtracker.com/
-
-* Healthy dog diet
-* Dog nutrition
-* Diet dog food
-* Dog food for seniors
-* Dog workout
-* Dog exercises
-* Puppy exercise
-* Dog strength training
-* Dog weight training
-* K9 fitness
-* Canine fitness
-* Workout with your dog
-* Dog leashes
-* Dog store
-* Dog supplies
-
 ### Social Media
 
 Facebook - https://www.facebook.com/profile.php?id=100086354232340
@@ -604,6 +586,11 @@ These are the primary colors that I have used throughout the website. I wanted t
 
 <a name="validator-testing"></a>
 ## Validator Testing
+
+### Python
+
+| File Name | File Path | Result | Error/Warning | Comment |
+| ----- | ----- | ----- | ----- | ----- |
 
 ### CSS
 

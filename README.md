@@ -389,6 +389,7 @@ In the products section, the site user can browse the online store and purchase 
 | image_url | | URLField | max_length=1024, null=True, blank=True |
 | image | | ImageField | null=True, blank=True |
 
+----
 
 ### Order
 
@@ -409,6 +410,8 @@ In the products section, the site user can browse the online store and purchase 
 | delivery_cost | | DecimalField | max_digits=6, decimal_places=2, null=False, default=0 |
 | order_subtotal | | DecimalField | max_digits=10, decimal_places=2, null=False, default=0 |
 | order_total | | DecimalField | max_length=10, decimal_places=2, null=False, default=0 |
+
+----
 
 ### Contact Form
 
@@ -450,6 +453,8 @@ In the products section, the site user can browse the online store and purchase 
 | email |  | EmailField | max_length=254 null=False, blank=False |
 | message |  | CharField | max_length=2000 null=False, blank=False |
 
+----
+
 ### Subscribers
 
 | Name | Key | Type | Other Details |
@@ -463,6 +468,8 @@ In the products section, the site user can browse the online store and purchase 
 | ---- | ---- | ---- | ---- |
 | title | | CharField | max_length=100, null=True |
 | message | | TextField | null=True |
+
+----
 
 [Back to top](#table-of-contents)
 
@@ -611,6 +618,50 @@ These are the primary colors that I have used throughout the website. I wanted t
 
 | File Name | File Path | Result | Error/Warning | Comment |
 | ----- | ----- | ----- | ----- | ----- |
+| admin.py | bag/admin.py | ----- | ----- | ----- |
+| apps.py | bag/apps.py | ----- | ----- | ----- |
+| contexts.py | bag/contexts.py | ----- | ----- | ----- |
+| urls.py | bag/urls.py | ----- | ----- | ----- |
+| views.py | bag/views.py | ----- | ----- | ----- |
+| admin.py | checkout/admin.py | ----- | ----- | ----- |
+| apps.py | checkout/apps.py | ----- | ----- | ----- |
+| forms.py | checkout/forms.py | ----- | ----- | ----- |
+| models.py | checkout/models.py | ----- | ----- | ----- |
+| signals.py | checkout/signals.py | ----- | ----- | ----- |
+| urls.py | checkout/urls.py | ----- | ----- | ----- |
+| views.py | checkout/views.py | ----- | ----- | ----- |
+| webhook_handler.py | checkout/webhook_handler.py | ----- | ----- | ----- |
+| webhooks.py | checkout/webhooks.py | ----- | ----- | ----- |
+| admin.py | contact/admin.py | ----- | ----- | ----- |
+| apps.py | contact/apps.py | ----- | ----- | ----- |
+| forms.py | contact/forms.py | ----- | ----- | ----- |
+| models.py | contact/models.py | ----- | ----- | ----- |
+| urls.py | contact/urls.py | ----- | ----- | ----- |
+| views.py | contact/views.py | ----- | ----- | ----- |
+| admin.py | fitness_plans/admin.py | ----- | ----- | ----- |
+| apps.py | fitness_plans/apps.py | ----- | ----- | ----- |
+| forms.py | fitness_plans/forms.py | ----- | ----- | ----- |
+| models.py | fitness_plans/models.py | ----- | ----- | ----- |
+| urls.py | fitness_plans/urls.py | ----- | ----- | ----- |
+| views.py | fitness_plans/views.py | ----- | ----- | ----- |
+| admin.py | home/admin.py | ----- | ----- | ----- |
+| apps.py | home/apps.py | ----- | ----- | ----- |
+| models.py | home/models.py | ----- | ----- | ----- |
+| urls.py | home/urls.py | ----- | ----- | ----- |
+| views.py | home/views.py | ----- | ----- | ----- |
+| admin.py | nutrition_plans/admin.py | ----- | ----- | ----- |
+| apps.py | nutrition_plans/apps.py | ----- | ----- | ----- |
+| forms.py | nutrition_plans/forms.py | ----- | ----- | ----- |
+| models.py | nutrition_plans/models.py | ----- | ----- | ----- |
+| urls.py | nutrition_plans/urls.py | ----- | ----- | ----- |
+| views.py | nutrition_plans/views.py | ----- | ----- | ----- |
+| admin.py | products/admin.py | ----- | ----- | ----- |
+| apps.py | products/apps.py | ----- | ----- | ----- |
+| forms.py | products/forms.py | ----- | ----- | ----- |
+| models.py | products/models.py | ----- | ----- | ----- |
+| urls.py | products/urls.py | ----- | ----- | ----- |
+| views.py | products/views.py | ----- | ----- | ----- |
+| widgets.py | products/widgets.py | ----- | ----- | ----- |
 
 ### CSS
 

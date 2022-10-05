@@ -23,9 +23,6 @@
 * [Colors Used](#colors-used)
 * [Am I Responsive](#am-i-responsive)
 * [Testing](#testing)
-* [Python Testing](#python-testing)
-* [Validator Testing](#validator-testing)
-* [Lighthouse Testing](#lighthouse-testing)
 * [Bugs](#bugs)
 * [Deployment](#deployment)
 * [Credits](#credits)
@@ -355,6 +352,18 @@ In the products section, the site user can browse the online store and purchase 
 ![contact](docs/contact.png)
 </details>
 
+<details>
+<summary>Newsletter</summary>
+
+![newsletter](docs/newslettermodel.png)
+</details>
+
+<details>
+<summary>Social Media</summary>
+
+![social-media]()
+</details>
+
 [Back to top](#table-of-contents)
 
 <a name="models"></a>
@@ -440,6 +449,20 @@ In the products section, the site user can browse the online store and purchase 
 | outcome_goal |  | ChoiceField | default=False, null=False, blank=False |
 | email |  | EmailField | max_length=254 null=False, blank=False |
 | message |  | CharField | max_length=2000 null=False, blank=False |
+
+### Subscribers
+
+| Name | Key | Type | Other Details |
+| ---- | ---- | ---- | ---- |
+| email | | EmailField | null=True |
+| date | | DateTimeField | auto_now_add=True |
+
+### Newsletter
+
+| Name | Key | Type | Other Details |
+| ---- | ---- | ---- | ---- |
+| title | | CharField | max_length=100, null=True |
+| message | | TextField | null=True |
 
 [Back to top](#table-of-contents)
 
@@ -584,9 +607,6 @@ These are the primary colors that I have used throughout the website. I wanted t
 <a name="testing"></a>
 ## Testing
 
-<a name="validator-testing"></a>
-## Validator Testing
-
 ### Python
 
 | File Name | File Path | Result | Error/Warning | Comment |
@@ -611,10 +631,7 @@ These are the primary colors that I have used throughout the website. I wanted t
 | countryfield.js | profiles/countryfield.js | [link](docs/countryfieldjstest.png) |
 | stripe_elements.js | checkout/stripe_elements.js | [link](docs/stripeelementsjstest.png) |
 
-[Back to top](#table-of-contents)
-
-<a name="lighthouse-testing"></a>
-## Lighthouse Testing
+### Lighthouse
 
 | Page Name | Desktop/Mobile | Comment |
 | ----- | ----- | -----|

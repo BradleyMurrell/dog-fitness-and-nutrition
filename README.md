@@ -693,7 +693,7 @@ These are the primary colors that I have used throughout the website. I wanted t
 | File Name | File Path | JSHint | Comment |
 | ----- | ----- | ----- | ----- |
 | countryfield.js | profiles/countryfield.js | [link](docs/countryfieldjstest.png) |
-| stripe_elements.js | checkout/stripe_elements.js | [link](docs/stripeelementsjstest.png) |
+| stripe_elements.js | checkout/stripe_elements.js | [link](docs/stripe-elements-js-test.png) |
 
 ### Lighthouse
 

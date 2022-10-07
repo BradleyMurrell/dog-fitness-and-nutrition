@@ -1,6 +1,9 @@
+""" Imports """
 from django import forms
 
+
 class SessionForm(forms.Form):
+    """ Form model for nutrition plan """
 
     GENDER = (
         ('male', 'Male'),

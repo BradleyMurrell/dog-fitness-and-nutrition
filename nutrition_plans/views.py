@@ -1,15 +1,19 @@
+""" Imports """
 from django.shortcuts import render
 from django.core.mail import send_mail
 from django.template.loader import render_to_string
 
 from .forms import SessionForm
 
+
 def nutrition_plans(request):
     """A view to return the nutrition plans page"""
 
     return render(request, 'nutrition_plans/nutrition_plans.html')
 
+
 def nutrition_plan_contact(request):
+    """A view to return the nutrition plan contact page"""
     if request.method == 'POST':
         form = SessionForm(request.POST)
 
@@ -29,27 +33,39 @@ def nutrition_plan_contact(request):
             email = form.cleaned_data['email']
             message = form.cleaned_data['message']
 
-            html = render_to_string('nutrition_plans/email/nutrition_email.html', {
-                'your_name': your_name,
-                'dogs_name': dogs_name,
-                'dogs_age': dogs_age,
-                'dogs_breed': dogs_breed,
-                'dogs_gender': dogs_gender,
-                'dogs_weight': dogs_weight,
-                'dogs_physique': dogs_physique,
-                'active_level': active_level,
-                'eating_habit': eating_habit,
-                'allergies': allergies,
-                'food_preference': food_preference,
-                'outcome_goal': outcome_goal,
-                'email': email,
-                'message': message
-            })
+            html = render_to_string(
+                'nutrition_plans/email/nutrition_email.html', {
+                    'your_name': your_name,
+                    'dogs_name': dogs_name,
+                    'dogs_age': dogs_age,
+                    'dogs_breed': dogs_breed,
+                    'dogs_gender': dogs_gender,
+                    'dogs_weight': dogs_weight,
+                    'dogs_physique': dogs_physique,
+                    'active_level': active_level,
+                    'eating_habit': eating_habit,
+                    'allergies': allergies,
+                    'food_preference': food_preference,
+                    'outcome_goal': outcome_goal,
+                    'email': email,
+                    'message': message
+                }
+            )
 
-            send_mail('Form subject', 'Form message', 'DEFAULT_FROM_EMAIL', ['dog.fitness.nutrition@gmail.com'], html_message=html)
+            send_mail(
+                'Form subject',
+                'Form message',
+                'DEFAULT_FROM_EMAIL',
+                ['dog.fitness.nutrition@gmail.com'],
+                html_message=html
+            )
 
             return render(request, 'contact/contact_success.html')
 
     form = SessionForm()
     context = {'form': form}
-    return render(request, 'nutrition_plans/nutrition_plan_contact.html', context)
+    return render(
+        request,
+        'nutrition_plans/nutrition_plan_contact.html',
+        context
+    )

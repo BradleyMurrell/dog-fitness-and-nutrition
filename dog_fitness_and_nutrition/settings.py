@@ -107,6 +107,7 @@ AUTHENTICATION_BACKENDS = [
 
 SITE_ID = 1
 
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.mailtrap.io'
 EMAIL_HOST_USER = '26b19dcba8c101'
 EMAIL_HOST_PASSWORD = '41f0e883beeded'

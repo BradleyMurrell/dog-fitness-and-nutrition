@@ -63,6 +63,13 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
+/* -- 404 page --*/
+
+#error-image {
+    width: 400px;
+    height: 400px;
+}
+
 /* -- Bootstrap toasts --*/
 
 .message-container {

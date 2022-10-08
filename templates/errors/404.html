@@ -9,17 +9,23 @@
 <div class="container h-100">
     <div class="row h-100">
         <div class="col-7 col-md-6 my-auto">
-            <h1 class="display-4 logo-font text-black">
-                The page you are looking for isn't available
-            </h1>
+            <h1>404</h1>
+            <div>
+                <h2>PAGE NOT FOUND.</h2>
+                <p>We Couldn't Find This Page</p>
+            </div>
             <div class="my-5">
                 <h4>
-                    <a href="{% url 'products' %}" 
-                        class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">
-                            Return to shop
+                    <a href="{% url 'home' %}" 
+                        class="btn btn-danger btn-block p-3 shadow rounded-pill">
+                        <i class="fa fa-home"></i>Home
                     </a>
                 </h4>
             </div>
+        </div>
+        <div class="col-4">
+            <img src="{% static 'images/404-page-image.png' %}" alt="Lost dog"
+                class="img-responsive" id="404">
         </div>
     </div>
 </div>

@@ -616,65 +616,65 @@ These are the primary colors that I have used throughout the website. I wanted t
 
 ### Python
 
-| File Name | File Path | Result | Error/Warning | Comment |
-| ----- | ----- | ----- | ----- | ----- |
+| File Name | File Path | Result | Comment |
+| ----- | ----- | ----- | ----- |
 |  |  |  |  |  |
-| BAG |  | [link](docs/pylint-bag.png) |  |  |
-| admin.py | bag/admin.py | PASS |  |  |
-| apps.py | bag/apps.py | PASS |  |  |
-| contexts.py | bag/contexts.py | PASS |  |  |
-| urls.py | bag/urls.py | PASS |  |  |
-| views.py | bag/views.py | PASS |  |  |
-|  |  |  |  |  |
-| CHECKOUT |  |  |  |  |
-| admin.py | checkout/admin.py | ----- | ----- | ----- |
-| apps.py | checkout/apps.py | ----- | ----- | ----- |
-| forms.py | checkout/forms.py | ----- | ----- | ----- |
-| models.py | checkout/models.py | ----- | ----- | ----- |
-| signals.py | checkout/signals.py | ----- | ----- | ----- |
-| urls.py | checkout/urls.py | ----- | ----- | ----- |
-| views.py | checkout/views.py | ----- | ----- | ----- |
-| webhook_handler.py | checkout/webhook_handler.py | ----- | ----- | ----- |
-| webhooks.py | checkout/webhooks.py | ----- | ----- | ----- |
-|  |  |  |  |  |
-| CONTACT |  |  |  |  |
-| admin.py | contact/admin.py | ----- | ----- | ----- |
-| apps.py | contact/apps.py | ----- | ----- | ----- |
-| forms.py | contact/forms.py | ----- | ----- | ----- |
-| models.py | contact/models.py | ----- | ----- | ----- |
-| urls.py | contact/urls.py | ----- | ----- | ----- |
-| views.py | contact/views.py | ----- | ----- | ----- |
-|  |  |  |  |  |
-| FITNESS_PLANS |  |  |  |  |
-| admin.py | fitness_plans/admin.py | ----- | ----- | ----- |
-| apps.py | fitness_plans/apps.py | ----- | ----- | ----- |
-| forms.py | fitness_plans/forms.py | ----- | ----- | ----- |
-| models.py | fitness_plans/models.py | ----- | ----- | ----- |
-| urls.py | fitness_plans/urls.py | ----- | ----- | ----- |
-| views.py | fitness_plans/views.py | ----- | ----- | ----- |
-|  |  |  |  |  |
-| HOME |  |  |  |  |
-| admin.py | home/admin.py | ----- | ----- | ----- |
-| apps.py | home/apps.py | ----- | ----- | ----- |
-| models.py | home/models.py | ----- | ----- | ----- |
-| urls.py | home/urls.py | ----- | ----- | ----- |
-| views.py | home/views.py | ----- | ----- | ----- |
-|  |  |  |  |  |
-| NUTRITION_PLANS |  |  |  |  |
-| admin.py | nutrition_plans/admin.py | ----- | ----- | ----- |
-| apps.py | nutrition_plans/apps.py | ----- | ----- | ----- |
-| forms.py | nutrition_plans/forms.py | ----- | ----- | ----- |
-| models.py | nutrition_plans/models.py | ----- | ----- | ----- |
-| urls.py | nutrition_plans/urls.py | ----- | ----- | ----- |
-| views.py | nutrition_plans/views.py | ----- | ----- | ----- |
-| PRODUCTS |  |  |  |  |
-| admin.py | products/admin.py | ----- | ----- | ----- |
-| apps.py | products/apps.py | ----- | ----- | ----- |
-| forms.py | products/forms.py | ----- | ----- | ----- |
-| models.py | products/models.py | ----- | ----- | ----- |
-| urls.py | products/urls.py | ----- | ----- | ----- |
-| views.py | products/views.py | ----- | ----- | ----- |
-| widgets.py | products/widgets.py | ----- | ----- | ----- |
+| BAG |  | [link](docs/pylint-bag.png) |  |
+| admin.py | bag/admin.py | PASS |  |
+| apps.py | bag/apps.py | PASS |  |
+| contexts.py | bag/contexts.py | PASS |  |
+| urls.py | bag/urls.py | PASS |  |
+| views.py | bag/views.py | PASS |  |
+|  |  |  |  |
+| CHECKOUT |  |  |  |
+| admin.py | checkout/admin.py | PASS |  |
+| apps.py | checkout/apps.py |  |  |
+| forms.py | checkout/forms.py |  |  |
+| models.py | checkout/models.py |  |  |
+| signals.py | checkout/signals.py |  |  |
+| urls.py | checkout/urls.py | PASS |  |
+| views.py | checkout/views.py |  |  |
+| webhook_handler.py | checkout/webhook_handler.py |  |  |
+| webhooks.py | checkout/webhooks.py |  |  |
+|  |  |  |  |
+| CONTACT |  |  |  |
+| admin.py | contact/admin.py |  |  |
+| apps.py | contact/apps.py |  |  |
+| forms.py | contact/forms.py |  |  |
+| models.py | contact/models.py |  |  |
+| urls.py | contact/urls.py |  |  |
+| views.py | contact/views.py |  |  |
+|  |  |  |  |
+| FITNESS_PLANS |  |  |  |
+| admin.py | fitness_plans/admin.py |  |  |
+| apps.py | fitness_plans/apps.py |  |  |
+| forms.py | fitness_plans/forms.py |  |  |
+| models.py | fitness_plans/models.py |  |  |
+| urls.py | fitness_plans/urls.py |  |  |
+| views.py | fitness_plans/views.py |  |  |
+|  |  |  |  |
+| HOME |  |  |  |
+| admin.py | home/admin.py |  |  |
+| apps.py | home/apps.py |  |  |
+| models.py | home/models.py |  |  |
+| urls.py | home/urls.py |  |  |
+| views.py | home/views.py |  |  |
+|  |  |  |  |
+| NUTRITION_PLANS |  |  |  |
+| admin.py | nutrition_plans/admin.py |  |  |
+| apps.py | nutrition_plans/apps.py |  |  |
+| forms.py | nutrition_plans/forms.py |  |  |
+| models.py | nutrition_plans/models.py |  |  |
+| urls.py | nutrition_plans/urls.py |  |  |
+| views.py | nutrition_plans/views.py |  |  |
+| PRODUCTS |  |  |  |
+| admin.py | products/admin.py |  |  |
+| apps.py | products/apps.py |  |  |
+| forms.py | products/forms.py |  |  |
+| models.py | products/models.py |  |  |
+| urls.py | products/urls.py |  |  |
+| views.py | products/views.py |  |  |
+| widgets.py | products/widgets.py |  |  |
 
 ### CSS
 

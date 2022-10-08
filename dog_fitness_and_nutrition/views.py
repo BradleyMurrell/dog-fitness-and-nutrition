@@ -1,10 +1,5 @@
-""" Imports """
-from django.conf import settings
-from django.shortcuts import render, redirect
+from django.shortcuts import render
 
 
-def error_404_view(request, exception):
-
-    # we add the path to the the 404.html file
-    # here. The name of our HTML file is 404.html
-    return render(request, "errors/404.html", status=404)
+def handler404(request, *args, **argv):
+    return render(request, 'errors/404.html')

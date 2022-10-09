@@ -356,12 +356,6 @@ In the products section, the site user can browse the online store and purchase 
 ![newsletter](docs/newslettermodel.png)
 </details>
 
-<details>
-<summary>Social Media</summary>
-
-![social-media]()
-</details>
-
 [Back to top](#table-of-contents)
 
 <a name="models"></a>
@@ -827,5 +821,6 @@ The live link can be found here - https://dog-fitness-and-nutrition.herokuapp.co
 * Images sourced from https://unsplash.com/
 * Wireframe created on https://app.uizard.io/
 * Fonts sourced from https://fonts.google.com/
+* Email testing done on https://mailtrap.io/
 
 [Back to top](#table-of-contents)

@@ -618,104 +618,109 @@ These are the primary colors that I have used throughout the website. I wanted t
 
 | File Name | File Path | Rated | Comment |
 | ----- | ----- | ----- | ----- |
-| BAG |  |  |
+| BAG |  | 10.00/10 |  |
 |  |  |  |  |
-| admin.py | bag/admin.py |  |  |
-| apps.py | bag/apps.py |  |  |
-| contexts.py | bag/contexts.py |  |  |
-| urls.py | bag/urls.py |  |  |
-| views.py | bag/views.py |  |  |
+| admin.py | bag/admin.py | 10.00/10 |  |
+| apps.py | bag/apps.py | 10.00/10 |  |
+| contexts.py | bag/contexts.py | 10.00/10 |  |
+| urls.py | bag/urls.py | 10.00/10 |  |
+| views.py | bag/views.py | 10.00/10 |  |
 
 | File Name | File Path | Rated | Comment |
 | ----- | ----- | ----- | ----- |
 | CHECKOUT |  | 6.52/10 |  |
 |  |  |  |  |
 | admin.py | checkout/admin.py | 10.00/10 |  |
-| apps.py | checkout/apps.py | 6.67/10 | `11:8: C0415: Import outside toplevel (checkout.signals) (import-outside-toplevel)` `11:8: W0611: Unused import checkout.signals (unused-import)` |
-| forms.py | checkout/forms.py | 9.44/10 | `8:4: R0903: Too few public methods (0/2) (too-few-public-methods)` |
-| models.py | checkout/models.py | 6.08/10 | `91:27: E1101: Instance of 'Order' has no 'lineitems' member (no-member)` `143:30: E1101: Instance of 'ForeignKey' has no 'price' member (no-member)` `147:22: E1101: Instance of 'ForeignKey' has no 'sku' member (no-member)` `147:50: E1101: Instance of 'ForeignKey' has no 'order_number' member (no-member)` |
-| signals.py | checkout/signals.py | 2.86/10 | `9:19: W0613: Unused argument 'sender' (unused-argument)` `9:37: W0613: Unused argument 'created' (unused-argument)` `9:0: W0613: Unused argument 'kwargs' (unused-argument)` `15:21: W0613: Unused argument 'sender' (unused-argument)` `15:0: W0613: Unused argument 'kwargs' (unused-argument)` |
+| apps.py | checkout/apps.py | 6.67/10 |  |
+| forms.py | checkout/forms.py | 9.44/10 |  |
+| models.py | checkout/models.py | 6.08/10 |  |
+| signals.py | checkout/signals.py | 2.86/10 | |
 | urls.py | checkout/urls.py | 10.00/10 |  |
-| views.py | checkout/views.py | 6.81/10 | `39:0: R0914: Too many local variables (21/15) (too-many-locals)` `59:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)` `67:30: E1101: Class 'Product' has no 'objects' member (no-member)` `85:23: E1101: Class 'Product' has no 'DoesNotExist' member (no-member)` `44:4: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)` `122:26: E1101: Class 'UserProfile' has no 'objects' member (no-member)` `134:19: E1101: Class 'UserProfile' has no 'DoesNotExist' member (no-member)` `39:0: R0912: Too many branches (14/12) (too-many-branches)` `161:18: E1101: Class 'UserProfile' has no 'objects' member (no-member)` |
+| views.py | checkout/views.py | 6.81/10 |  |
 | webhook_handler.py | checkout/webhook_handler.py | 6.18/10 |  |
 | webhooks.py | checkout/webhooks.py | 8.89/10 |  |
 
 | File Name | File Path | Rated | Comment |
 | ----- | ----- | ----- | ----- |
-| CONTACT |  |  |  |
+| CONTACT |  | 6.32/10 |  |
 |  |  |  |  |
-| admin.py | contact/admin.py |  |  |
-| apps.py | contact/apps.py |  |  |
-| forms.py | contact/forms.py |  |  |
-| models.py | contact/models.py |  |  |
-| urls.py | contact/urls.py |  |  |
-| views.py | contact/views.py |  |  |
+| admin.py | contact/admin.py | 10.00/10 |  |
+| apps.py | contact/apps.py | 10.00/10 |  |
+| forms.py | contact/forms.py | 10.00/10 |  |
+| models.py | contact/models.py | 2.86/10 |  |
+| urls.py | contact/urls.py | 10.00/10 |  |
+| views.py | contact/views.py | 10.00/10 |  |
 
 | File Name | File Path | Rated | Comment |
 | ----- | ----- | ----- | ----- |
-| DOG_FITNESS_AND_NUTRITION |  |  |  |
+| DOG_FITNESS_AND_NUTRITION |  | 9.62/10 |  |
 |  |  |  |  |
-| asgi.py | dog_fitness_and_nutrition/asgi.py |  |  |
-| settings.py | dog_fitness_and_nutrition/settings.py |  |  |
-| urls.py | dog_fitness_and_nutrition/urls.py |  |  |
-| views.py | dog_fitness_and_nutrition/views.py |  |  |
-| wsgi.py | dog_fitness_and_nutrition/wsgi.py |  |  |
+| asgi.py | dog_fitness_and_nutrition/asgi.py | 10.00/10 |  |
+| settings.py | dog_fitness_and_nutrition/settings.py | 10.00/10 |  |
+| urls.py | dog_fitness_and_nutrition/urls.py | 8.75/10 |  |
+| views.py | dog_fitness_and_nutrition/views.py | 3.33/10 |  |
+| wsgi.py | dog_fitness_and_nutrition/wsgi.py | 10.00/10 |  |
 
 | File Name | File Path | Rated | Comment |
 | ----- | ----- | ----- | ----- |
-| FITNESS_PLANS |  |  |  |
+| FITNESS_PLANS |  | 10.00/10 |  |
 |  |  |  |  |
-| admin.py | fitness_plans/admin.py |  |  |
-| apps.py | fitness_plans/apps.py |  |  |
-| forms.py | fitness_plans/forms.py |  |  |
-| models.py | fitness_plans/models.py |  |  |
-| urls.py | fitness_plans/urls.py |  |  |
-| views.py | fitness_plans/views.py |  |  |
+| apps.py | fitness_plans/apps.py | 10.00/10 |  |
+| forms.py | fitness_plans/forms.py | 10.00/10 |  |
+| urls.py | fitness_plans/urls.py | 10.00/10 |  |
+| views.py | fitness_plans/views.py | 10.00/10 |  |
 
 | File Name | File Path | Rated | Comment |
 | ----- | ----- | ----- | ----- |
-| HOME |  |  |  |
+| HOME |  | 10.00/10 |  |
 |  |  |  |  |
-| admin.py | home/admin.py |  |  |
-| apps.py | home/apps.py |  |  |
-| models.py | home/models.py |  |  |
-| urls.py | home/urls.py |  |  |
-| views.py | home/views.py |  |  |
+| admin.py | home/admin.py | 10.00/10 |  |
+| apps.py | home/apps.py | 10.00/10 |  |
+| models.py | home/models.py | 10.00/10 |  |
+| urls.py | home/urls.py | 10.00/10 |  |
+| views.py | home/views.py | 10.00/10 |  |
 
 | File Name | File Path | Rated | Comment |
 | ----- | ----- | ----- | ----- |
-| NEWSLETTER |  |  |  |
+| NEWSLETTER |  | 6.71/10 |  |
 |  |  |  |  |
-| admin.py | newsletter/admin.py |  |  |
-| apps.py | newsletter/apps.py |  |  |
-| forms.py | newsletter/forms.py |  |  |
-| models.py | newsletter/models.py |  |  |
-| urls.py | newsletter/urls.py |  |  |
-| views.py | newsletter/views.py |  |  |
+| admin.py | newsletter/admin.py | 10.00/10 |  |
+| apps.py | newsletter/apps.py | 10.00/10 |  |
+| forms.py | newsletter/forms.py | 8.00/10 |  |
+| models.py | newsletter/models.py | 0.91/10 |  |
+| urls.py | newsletter/urls.py | 10.00/10 |  |
+| views.py | newsletter/views.py | 8.18/10 |  |
 
 | File Name | File Path | Rated | Comment |
 | ----- | ----- | ----- | ----- |
-| NUTRITION_PLANS |  |  |  |
+| NUTRITION_PLANS |  | 9.83/10 |  |
 |  |  |  |  |
-| admin.py | nutrition_plans/admin.py |  |  |
-| apps.py | nutrition_plans/apps.py |  |  |
-| forms.py | nutrition_plans/forms.py |  |  |
-| models.py | nutrition_plans/models.py |  |  |
-| urls.py | nutrition_plans/urls.py |  |  |
-| views.py | nutrition_plans/views.py |  |  |
+| apps.py | nutrition_plans/apps.py | 10.00/10 |  |
+| forms.py | nutrition_plans/forms.py | 10.00/10 |  |
+| urls.py | nutrition_plans/urls.py | 10.00/10 |  |
+| views.py | nutrition_plans/views.py | 9.67/10 |  |
 
 | File Name | File Path | Rated | Comment |
 | ----- | ----- | ----- | ----- |
-| PRODUCTS |  |  |  |
+| PRODUCTS |  | 7.04/10 |  |
 |  |  |  |  |
-| admin.py | products/admin.py |  |  |
-| apps.py | products/apps.py |  |  |
-| forms.py | products/forms.py |  |  |
-| models.py | products/models.py |  |  |
-| urls.py | products/urls.py |  |  |
-| views.py | products/views.py |  |  |
-| widgets.py | products/widgets.py |  |  |
+| admin.py | products/admin.py | 10.00/10 |  |
+| apps.py | products/apps.py | 10.00/10 |  |
+| forms.py | products/forms.py | 5.33/10 |  |
+| models.py | products/models.py | 5.00/10 |  |
+| urls.py | products/urls.py | 10.00/10 |  |
+| views.py | products/views.py | 8.55/10 |  |
+| widgets.py | products/widgets.py | 10.00/10 |  |
+
+| File Name | File Path | Rated | Comment |
+| ----- | ----- | ----- | ----- |
+| PROFILES |  | 7.44/10 |  |
 |  |  |  |  |
+| apps.py | profiles/apps.py | 10.00/10 |  |
+| forms.py | profiles/forms.py | 9.44/10 |  |
+| models.py | profiles/models.py | 4.00/10 |  |
+| urls.py | profiles/urls.py | 10.00/10 |  |
+| views.py | profiles/views.py | 9.60/10 |  |
 
 [Back to top](#table-of-contents)
 

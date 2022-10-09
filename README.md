@@ -474,7 +474,7 @@ In the products section, the site user can browse the online store and purchase 
 <a name="features"></a>
 ## Features
 
-* ***Brand*** image for website
+* ***Brand*** image for website.
     <details>
     <summary>Image</summary>
 
@@ -483,7 +483,7 @@ In the products section, the site user can browse the online store and purchase 
 
 ---
 
-* ***Homepage*** where the site user can read about the company and navigate to different areas of the website
+* ***Homepage*** where the site user can read about the company and navigate to different areas of the website.
     <details>
     <summary>Image</summary>
 
@@ -492,31 +492,65 @@ In the products section, the site user can browse the online store and purchase 
 
 ---
 
-* ***Fitness plan*** page where the site user can read about the benefits of keeping their dog fit
-
-* Option to ***subscribe*** to a ***fitness plan***
+* ***Fitness plan*** page where the site user can read about the benefits of keeping their dog fit.
     <details>
     <summary>Image</summary>
 
-    ![Fitnessplan](docs/pagefitness.png)
+    ![Fitnesspage](docs/pagefitness.png)
+    </details>
+
+    <details>
+    <summary>Image</summary>
+
+    ![Fitness-benefits](docs/fitness-benefits.png)
+    </details>
+
+* Option to ***subscribe*** to a ***fitness plan***.
+    <details>
+    <summary>Image</summary>
+
+    ![Fitness-plans](docs/fitness-plans.png)
+    </details>
+
+    <details>
+    <summary>Image</summary>
+
+    ![Fitness-form](docs/fitness-form.png)
     </details>
 
 ---
 
-* ***Nutrition plan*** page where the site user can read about the benefits of feeding their dog a healthy diet
-
-* Option to ***subscribe*** to a ***nutrition plan***
+* ***Nutrition plan*** page where the site user can read about the benefits of feeding their dog a healthy diet.
     <details>
     <summary>Image</summary>
 
     ![Nutritionplan](docs/pagenutrition.png)
     </details>
 
+    <details>
+    <summary>Image</summary>
+
+    ![Nutrition-benefits](docs/nutrition-benefits.png)
+    </details>
+
+* Option to ***subscribe*** to a ***nutrition plan***.
+    <details>
+    <summary>Image</summary>
+
+    ![Nutrition-plans](docs/nutrition-plans.png)
+    </details>
+
+    <details>
+    <summary>Image</summary>
+
+    ![Nutrition-form](docs/nutrition-form.png)
+    </details>
+
 ---
 
-* ***Product page*** where the site user can browse the online store
+* ***Product page*** where the site user can browse the online store.
 
-* Option to ***make purchases*** from the store
+* Option to ***make purchases*** from the store.
     <details>
     <summary>Image</summary>
 
@@ -525,9 +559,9 @@ In the products section, the site user can browse the online store and purchase 
 
 ---
 
-* ***Product detail*** page where the site user can view details on a specific product
+* ***Product detail*** page where the site user can view details on a specific product.
 
-* Option to view and leave ***ratings and reviews***
+* Option to view and leave ***ratings and reviews***.
     <details>
     <summary>Image</summary>
 
@@ -536,9 +570,9 @@ In the products section, the site user can browse the online store and purchase 
 
 ---
 
-* ***Shopping cart*** page where the site user can view the products that they have put in the cart
+* ***Shopping cart*** page where the site user can view the products that they have put in the cart.
 
-* Option to proceed to ***checkout*** to complete product purchases
+* Option to proceed to ***checkout*** to complete product purchases.
     <details>
     <summary>Image</summary>
 
@@ -547,7 +581,7 @@ In the products section, the site user can browse the online store and purchase 
 
 ---
 
-* ***Checkout page*** where the site user can enter their details and complete their purchase
+* ***Checkout page*** where the site user can enter their details and complete their purchase.
     <details>
     <summary>Image</summary>
 
@@ -556,14 +590,41 @@ In the products section, the site user can browse the online store and purchase 
 
 ---
 
-* ***Contact page*** where the site user can find contact information of the company
+* ***Contact page*** where the site user can find contact information of the company.
     <details>
     <summary>Image</summary>
 
     ![Contactpage](docs/pagecontact.png)
     </details>
 
-* Option to ***send a message*** directly from the contact page
+* Option to ***send a message*** directly from the contact page.
+
+---
+
+* ***Newsletter*** where the site user can subscribe by entering their email and receive updates from the site admin.
+    <details>
+    <summary>Image</summary>
+
+    ![Newsletter-subscribe](docs/newsletter-subscribe.png)
+    </details>
+
+* Site admin can ***send a message*** to anyone who has subscribed to the newsletter.
+    <details>
+    <summary>Image</summary>
+
+    ![Newsletter-message](docs/newsletter-message.png)
+    </details>
+
+---
+
+* ***404 error page*** when the site user navigates to a page that doesn't exist.
+    <details>
+    <summary>Image</summary>
+
+    ![404-page](docs/404-page.png)
+    </details>
+
+* Option to navigate to ***home*** page.
 
 ---
 

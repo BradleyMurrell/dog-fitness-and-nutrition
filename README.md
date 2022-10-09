@@ -21,9 +21,7 @@
 * [Features](#features)
 * [Marketing](#marketing)
 * [Colors Used](#colors-used)
-* [Am I Responsive](#am-i-responsive)
 * [Testing](#testing)
-* [Bugs](#bugs)
 * [Deployment](#deployment)
 * [Credits](#credits)
 * [Content](#content)
@@ -625,9 +623,7 @@ These are the primary colors that I have used throughout the website. I wanted t
 | contexts.py | bag/contexts.py | 10.00/10 |  |
 | urls.py | bag/urls.py | 10.00/10 |  |
 | views.py | bag/views.py | 10.00/10 |  |
-
-| File Name | File Path | Rated | Comment |
-| ----- | ----- | ----- | ----- |
+|  |  |  |  |
 | CHECKOUT |  | 6.52/10 |  |
 |  |  |  |  |
 | admin.py | checkout/admin.py | 10.00/10 |  |
@@ -639,9 +635,7 @@ These are the primary colors that I have used throughout the website. I wanted t
 | views.py | checkout/views.py | 6.81/10 |  |
 | webhook_handler.py | checkout/webhook_handler.py | 6.18/10 |  |
 | webhooks.py | checkout/webhooks.py | 8.89/10 |  |
-
-| File Name | File Path | Rated | Comment |
-| ----- | ----- | ----- | ----- |
+|  |  |  |  |
 | CONTACT |  | 6.32/10 |  |
 |  |  |  |  |
 | admin.py | contact/admin.py | 10.00/10 |  |
@@ -650,9 +644,7 @@ These are the primary colors that I have used throughout the website. I wanted t
 | models.py | contact/models.py | 2.86/10 |  |
 | urls.py | contact/urls.py | 10.00/10 |  |
 | views.py | contact/views.py | 10.00/10 |  |
-
-| File Name | File Path | Rated | Comment |
-| ----- | ----- | ----- | ----- |
+|  |  |  |  |
 | DOG_FITNESS_AND_NUTRITION |  | 9.62/10 |  |
 |  |  |  |  |
 | asgi.py | dog_fitness_and_nutrition/asgi.py | 10.00/10 |  |
@@ -660,18 +652,14 @@ These are the primary colors that I have used throughout the website. I wanted t
 | urls.py | dog_fitness_and_nutrition/urls.py | 8.75/10 |  |
 | views.py | dog_fitness_and_nutrition/views.py | 3.33/10 |  |
 | wsgi.py | dog_fitness_and_nutrition/wsgi.py | 10.00/10 |  |
-
-| File Name | File Path | Rated | Comment |
-| ----- | ----- | ----- | ----- |
+|  |  |  |  |
 | FITNESS_PLANS |  | 10.00/10 |  |
 |  |  |  |  |
 | apps.py | fitness_plans/apps.py | 10.00/10 |  |
 | forms.py | fitness_plans/forms.py | 10.00/10 |  |
 | urls.py | fitness_plans/urls.py | 10.00/10 |  |
 | views.py | fitness_plans/views.py | 10.00/10 |  |
-
-| File Name | File Path | Rated | Comment |
-| ----- | ----- | ----- | ----- |
+|  |  |  |  |
 | HOME |  | 10.00/10 |  |
 |  |  |  |  |
 | admin.py | home/admin.py | 10.00/10 |  |
@@ -679,9 +667,7 @@ These are the primary colors that I have used throughout the website. I wanted t
 | models.py | home/models.py | 10.00/10 |  |
 | urls.py | home/urls.py | 10.00/10 |  |
 | views.py | home/views.py | 10.00/10 |  |
-
-| File Name | File Path | Rated | Comment |
-| ----- | ----- | ----- | ----- |
+|  |  |  |  |
 | NEWSLETTER |  | 6.71/10 |  |
 |  |  |  |  |
 | admin.py | newsletter/admin.py | 10.00/10 |  |
@@ -690,18 +676,14 @@ These are the primary colors that I have used throughout the website. I wanted t
 | models.py | newsletter/models.py | 0.91/10 |  |
 | urls.py | newsletter/urls.py | 10.00/10 |  |
 | views.py | newsletter/views.py | 8.18/10 |  |
-
-| File Name | File Path | Rated | Comment |
-| ----- | ----- | ----- | ----- |
+|  |  |  |  |
 | NUTRITION_PLANS |  | 9.83/10 |  |
 |  |  |  |  |
 | apps.py | nutrition_plans/apps.py | 10.00/10 |  |
 | forms.py | nutrition_plans/forms.py | 10.00/10 |  |
 | urls.py | nutrition_plans/urls.py | 10.00/10 |  |
 | views.py | nutrition_plans/views.py | 9.67/10 |  |
-
-| File Name | File Path | Rated | Comment |
-| ----- | ----- | ----- | ----- |
+|  |  |  |  |
 | PRODUCTS |  | 7.04/10 |  |
 |  |  |  |  |
 | admin.py | products/admin.py | 10.00/10 |  |
@@ -711,9 +693,7 @@ These are the primary colors that I have used throughout the website. I wanted t
 | urls.py | products/urls.py | 10.00/10 |  |
 | views.py | products/views.py | 8.55/10 |  |
 | widgets.py | products/widgets.py | 10.00/10 |  |
-
-| File Name | File Path | Rated | Comment |
-| ----- | ----- | ----- | ----- |
+|  |  |  |  |
 | PROFILES |  | 7.44/10 |  |
 |  |  |  |  |
 | apps.py | profiles/apps.py | 10.00/10 |  |
@@ -755,21 +735,6 @@ These are the primary colors that I have used throughout the website. I wanted t
 | Shopping Cart | [link](docs/lighthousebagdesk.png) / [link](docs/lighthousebagmob.png) |
 | Order Summary | [link](docs/lighthousecheckoutdesk.png) / [link](docs/lighthousecheckoutmob.png) |
 | Contact | [link](docs/lighthousecontactdesk.png) / [link](docs/lighthousecontactmob.png) |
-
-[Back to top](#table-of-contents)
-
-<a name="bugs"></a>
-## Bugs
-
-| Issue | Comment |
-| ----- | ----- |
-|  |  |
-
-## Fixed Bugs
-
-| Issue | Commit | File Name | Line | Comment |
-| ----- | ----- | ----- | ----- | ----- |
-|  |  |  |  |
 
 [Back to top](#table-of-contents)
 

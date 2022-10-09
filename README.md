@@ -618,15 +618,18 @@ These are the primary colors that I have used throughout the website. I wanted t
 
 | File Name | File Path | Rated | Comment |
 | ----- | ----- | ----- | ----- |
-|  |  |  |  |  |
-| BAG |  |  |  |
+| BAG |  |  |
+|  |  |  |  |
 | admin.py | bag/admin.py |  |  |
 | apps.py | bag/apps.py |  |  |
 | contexts.py | bag/contexts.py |  |  |
 | urls.py | bag/urls.py |  |  |
 | views.py | bag/views.py |  |  |
-|  |  |  |  |
+
+| File Name | File Path | Rated | Comment |
+| ----- | ----- | ----- | ----- |
 | CHECKOUT |  | 6.52/10 |  |
+|  |  |  |  |
 | admin.py | checkout/admin.py | 10.00/10 |  |
 | apps.py | checkout/apps.py | 6.67/10 | `11:8: C0415: Import outside toplevel (checkout.signals) (import-outside-toplevel)` `11:8: W0611: Unused import checkout.signals (unused-import)` |
 | forms.py | checkout/forms.py | 9.44/10 | `8:4: R0903: Too few public methods (0/2) (too-few-public-methods)` |
@@ -636,53 +639,75 @@ These are the primary colors that I have used throughout the website. I wanted t
 | views.py | checkout/views.py | 6.81/10 | `39:0: R0914: Too many local variables (21/15) (too-many-locals)` `59:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)` `67:30: E1101: Class 'Product' has no 'objects' member (no-member)` `85:23: E1101: Class 'Product' has no 'DoesNotExist' member (no-member)` `44:4: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)` `122:26: E1101: Class 'UserProfile' has no 'objects' member (no-member)` `134:19: E1101: Class 'UserProfile' has no 'DoesNotExist' member (no-member)` `39:0: R0912: Too many branches (14/12) (too-many-branches)` `161:18: E1101: Class 'UserProfile' has no 'objects' member (no-member)` |
 | webhook_handler.py | checkout/webhook_handler.py | 6.18/10 |  |
 | webhooks.py | checkout/webhooks.py | 8.89/10 |  |
-|  |  |  |  |
+
+| File Name | File Path | Rated | Comment |
+| ----- | ----- | ----- | ----- |
 | CONTACT |  |  |  |
+|  |  |  |  |
 | admin.py | contact/admin.py |  |  |
 | apps.py | contact/apps.py |  |  |
 | forms.py | contact/forms.py |  |  |
 | models.py | contact/models.py |  |  |
 | urls.py | contact/urls.py |  |  |
 | views.py | contact/views.py |  |  |
-|  |  |  |  |
+
+| File Name | File Path | Rated | Comment |
+| ----- | ----- | ----- | ----- |
 | DOG_FITNESS_AND_NUTRITION |  |  |  |
+|  |  |  |  |
 | asgi.py | dog_fitness_and_nutrition/asgi.py |  |  |
 | settings.py | dog_fitness_and_nutrition/settings.py |  |  |
 | urls.py | dog_fitness_and_nutrition/urls.py |  |  |
 | views.py | dog_fitness_and_nutrition/views.py |  |  |
 | wsgi.py | dog_fitness_and_nutrition/wsgi.py |  |  |
-|  |  |  |  |
+
+| File Name | File Path | Rated | Comment |
+| ----- | ----- | ----- | ----- |
 | FITNESS_PLANS |  |  |  |
+|  |  |  |  |
 | admin.py | fitness_plans/admin.py |  |  |
 | apps.py | fitness_plans/apps.py |  |  |
 | forms.py | fitness_plans/forms.py |  |  |
 | models.py | fitness_plans/models.py |  |  |
 | urls.py | fitness_plans/urls.py |  |  |
 | views.py | fitness_plans/views.py |  |  |
-|  |  |  |  |
+
+| File Name | File Path | Rated | Comment |
+| ----- | ----- | ----- | ----- |
 | HOME |  |  |  |
+|  |  |  |  |
 | admin.py | home/admin.py |  |  |
 | apps.py | home/apps.py |  |  |
 | models.py | home/models.py |  |  |
 | urls.py | home/urls.py |  |  |
 | views.py | home/views.py |  |  |
-|  |  |  |  |
+
+| File Name | File Path | Rated | Comment |
+| ----- | ----- | ----- | ----- |
 | NEWSLETTER |  |  |  |
+|  |  |  |  |
 | admin.py | newsletter/admin.py |  |  |
 | apps.py | newsletter/apps.py |  |  |
 | forms.py | newsletter/forms.py |  |  |
 | models.py | newsletter/models.py |  |  |
 | urls.py | newsletter/urls.py |  |  |
 | views.py | newsletter/views.py |  |  |
-|  |  |  |  |
+
+| File Name | File Path | Rated | Comment |
+| ----- | ----- | ----- | ----- |
 | NUTRITION_PLANS |  |  |  |
+|  |  |  |  |
 | admin.py | nutrition_plans/admin.py |  |  |
 | apps.py | nutrition_plans/apps.py |  |  |
 | forms.py | nutrition_plans/forms.py |  |  |
 | models.py | nutrition_plans/models.py |  |  |
 | urls.py | nutrition_plans/urls.py |  |  |
 | views.py | nutrition_plans/views.py |  |  |
+
+| File Name | File Path | Rated | Comment |
+| ----- | ----- | ----- | ----- |
 | PRODUCTS |  |  |  |
+|  |  |  |  |
 | admin.py | products/admin.py |  |  |
 | apps.py | products/apps.py |  |  |
 | forms.py | products/forms.py |  |  |
@@ -690,6 +715,9 @@ These are the primary colors that I have used throughout the website. I wanted t
 | urls.py | products/urls.py |  |  |
 | views.py | products/views.py |  |  |
 | widgets.py | products/widgets.py |  |  |
+|  |  |  |  |
+
+[Back to top](#table-of-contents)
 
 ### CSS
 

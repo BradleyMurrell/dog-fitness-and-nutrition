@@ -11,6 +11,9 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'dog_fitness_and_nutrition.settings')
+os.environ.setdefault(
+    'DJANGO_SETTINGS_MODULE',
+    'dog_fitness_and_nutrition.settings'
+)
 
 application = get_asgi_application()

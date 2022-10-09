@@ -1,25 +1,33 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item">
-            <a class="logo-font font-weight-bold nav-link text-blue" href="{% url 'fitness_plans' %}" id="fitness-link">
+            <a class="logo-font font-weight-bold nav-link text-blue" href="{% url 'fitness_plans' %}" id="fitness-link"
+                rel="dog fitness, dog workout, dog exercises, dog strength training, dog weight training, workout with your dog, stockholm dog fitness">
                 Fitness Plans
             </a>
         </li>
 
         <li class="nav-item">
-            <a class="logo-font font-weight-bold nav-link text-blue" href="{% url 'nutrition_plans' %}" id="nutrition-link">
+            <a class="logo-font font-weight-bold nav-link text-blue" href="{% url 'nutrition_plans' %}"
+                id="nutrition-link" rel="dog nutrition, healthy dog diet">
                 Nutrition Plans
             </a>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-blue" href="{% url 'home' %}" id="product-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-blue" href="{% url 'home' %}" id="product-link"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Fitness &amp; Nutrition Supplies
             </a>
             <div class="dropdown-menu" aria-labelledby="product-link">
-                <a href="{% url 'products' %}?category=fitness_supplies" class="dropdown-item">Fitness Supplies</a>
-                <a href="{% url 'products' %}?category=nutrition_supplies" class="dropdown-item">Nutritional Supplies</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
+                <a href="{% url 'products' %}?category=fitness_supplies" class="dropdown-item"
+                    rel="dog leash, dog harness, dog toys">Fitness Supplies</a>
+                <a href="{% url 'products' %}?category=nutrition_supplies" class="dropdown-item"
+                    rel="diet dog food, dog food for seniors">Nutritional
+                    Supplies</a>
+                <a href="{% url 'products' %}" class="dropdown-item"
+                    rel="dog leash, dog harness, dog toys, diet dog food, dog food for seniors, dog bed">All
+                    Products</a>
             </div>
         </li>
 

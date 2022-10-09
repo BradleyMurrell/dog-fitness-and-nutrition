@@ -645,6 +645,13 @@ These are the primary colors that I have used throughout the website. I wanted t
 | urls.py | contact/urls.py |  |  |
 | views.py | contact/views.py |  |  |
 |  |  |  |  |
+| DOG_FITNESS_AND_NUTRITION |  |  |  |
+| asgi.py | dog_fitness_and_nutrition/asgi.py |  |  |
+| settings.py | dog_fitness_and_nutrition/settings.py |  |  |
+| urls.py | dog_fitness_and_nutrition/urls.py |  |  |
+| views.py | dog_fitness_and_nutrition/views.py |  |  |
+| wsgi.py | dog_fitness_and_nutrition/wsgi.py |  |  |
+|  |  |  |  |
 | FITNESS_PLANS |  |  |  |
 | admin.py | fitness_plans/admin.py |  |  |
 | apps.py | fitness_plans/apps.py |  |  |
@@ -659,6 +666,14 @@ These are the primary colors that I have used throughout the website. I wanted t
 | models.py | home/models.py |  |  |
 | urls.py | home/urls.py |  |  |
 | views.py | home/views.py |  |  |
+|  |  |  |  |
+| NEWSLETTER |  |  |  |
+| admin.py | newsletter/admin.py |  |  |
+| apps.py | newsletter/apps.py |  |  |
+| forms.py | newsletter/forms.py |  |  |
+| models.py | newsletter/models.py |  |  |
+| urls.py | newsletter/urls.py |  |  |
+| views.py | newsletter/views.py |  |  |
 |  |  |  |  |
 | NUTRITION_PLANS |  |  |  |
 | admin.py | nutrition_plans/admin.py |  |  |
